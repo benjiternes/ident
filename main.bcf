@@ -1971,6 +1971,23 @@
     <bcf:datasource type="file" datatype="bibtex">bibo.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">Kellner2012</bcf:citekey>
+    <bcf:citekey order="2">mullerII2008</bcf:citekey>
+    <bcf:citekey order="3">mullerI2005</bcf:citekey>
+    <bcf:citekey order="4">fischer2009</bcf:citekey>
+    <bcf:citekey order="5">schroder2000</bcf:citekey>
+    <bcf:citekey order="6">sturmberger</bcf:citekey>
+    <bcf:citekey order="7">Kellner2012</bcf:citekey>
+    <bcf:citekey order="8">ternesfeldkamp</bcf:citekey>
+    <bcf:citekey order="9">ternesfeldkamp</bcf:citekey>
+    <bcf:citekey order="10">ternesfeldkamp</bcf:citekey>
+    <bcf:citekey order="11">ternesfeldkamp</bcf:citekey>
+    <bcf:citekey order="12">mullerI2005</bcf:citekey>
+    <bcf:citekey order="13">mullerI2005</bcf:citekey>
+    <bcf:citekey order="14">Kellner2012</bcf:citekey>
+    <bcf:citekey order="15">mullerII2008</bcf:citekey>
+    <bcf:citekey order="16">ternesfeldkamp</bcf:citekey>
+    <bcf:citekey order="17">ternesfeldkamp</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="anyt" type="entry" sortscheme="anyt">
