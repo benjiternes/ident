@@ -189,17 +189,17 @@
 
 \begin{document}
 
-\title{Elektrische Komponenten}
+\title{Ansätze zur Parameteridentifikation der PMSM}
 
 \author{\IEEEauthorblockN{Benjamin Ternes}
-\IEEEauthorblockA{HS Bochum\\
-Fachbereich Informatik und Elektrotechnik\\
+\IEEEauthorblockA{Hochschule Bochum\\
+Fachbereich Elektrotechnik und Informatik\\
 Bochum, Germany\\
 E-mail: benjamin.ternes@hs-bochum.de}
 \and
 \IEEEauthorblockN{Jan Feldkamp}
-\IEEEauthorblockA{HS Bochum\\
-Fachbereich Informatik und Elektrotechnik\\
+\IEEEauthorblockA{Hochschule Bochum\\
+Fachbereich Elektrotechnik und Informatik\\
 Bochum, Germany\\
 E-mail: jan.feldkamp@hs-bochum.de}}
 %\and
@@ -242,7 +242,7 @@ E-mail: jan.feldkamp@hs-bochum.de}}
 \end{abstract}
 
 \begin{IEEEkeywords}
-Energiespeicher usw.\
+PMSM, Identifikation, Induktivitäten
 \end{IEEEkeywords}
 
 
@@ -256,10 +256,10 @@ Energiespeicher usw.\
 % creates the second title. It will be ignored for other modes.
 \IEEEpeerreviewmaketitle
 
-\tableofcontents
+%\tableofcontents
 
 \input{texta}
-\input{textb}
+%\input{textb}
 
 % needed in second column of first page if using \IEEEpubid
 %\IEEEpubidadjcol
@@ -402,6 +402,10 @@ Energiespeicher usw.\
 % set second argument of \begin to the number of references
 % (used to reserve space for the reference number labels box)
 
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{img/BT}}]{Benjamin Ternes}
+\blindtext
+\end{IEEEbiography}
+
 \nocite{*}
 \printbibliography
 
@@ -421,12 +425,8 @@ Energiespeicher usw.\
 % \includegraphics command within an optional argument. (You could create
 % your own custom macro containing the \includegraphics command to make things
 % simpler here.)
-%\begin{biography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{mshell}}]{Michael Shell}
+%\begin{biography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{img/BT}}]{Benjamin Ternes}\blindtext \end{biography}%
 % or if you just want to reserve a space for a photo:
-
-\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{img/BT}}]{Benjamin Ternes}
-\blindtext
-\end{IEEEbiography}
 
 % You can push biographies down or up by placing
 % a \vfill before or after them. The appropriate
