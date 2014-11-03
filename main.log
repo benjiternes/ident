@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.19)  3 NOV 2014 16:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.19)  3 NOV 2014 21:29
 entering extended mode
 **main.tex
 (D:\ident\main.tex
@@ -882,36 +882,53 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 295.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 295.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [1{C:/Users/benjamin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
  <D:/ident/img/synchron-grundlage.pdf>]
-<img/spannungsgleichungen.pdf, id=30, 398.28238pt x 113.92201pt>
+<img/spannungsgleichungen.pdf, id=29, 398.28238pt x 113.92201pt>
 File: img/spannungsgleichungen.pdf Graphic file (type pdf)
 
 <use img/spannungsgleichungen.pdf>
 Package pdftex.def Info: img/spannungsgleichungen.pdf used on input line 354.
-(pdftex.def)             Requested size: 316.31233pt x 90.47542pt.
-
-Overfull \hbox (63.26247pt too wide) in paragraph at lines 354--356
-[][]
- []
-
-[2 <D:/ident/img/spannungsgleichungen.pdf>]
+(pdftex.def)             Requested size: 253.04987pt x 72.37964pt.
+ [2 <D:/ident/img/spannungsgleichungen.pdf>]
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 422.
 
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [3]
-Underfull \hbox (badness 2653) in paragraph at lines 603--603
+)
+<img/mrac.pdf, id=46, 398.08725pt x 284.26201pt>
+File: img/mrac.pdf Graphic file (type pdf)
+ <use img/mrac.pdf>
+Package pdftex.def Info: img/mrac.pdf used on input line 427.
+(pdftex.def)             Requested size: 253.04987pt x 180.6952pt.
+ [3 <D:/ident/img/mrac.pdf>] <img/test-strom.pdf, id=66, 398.08725pt x 142.1310
+1pt>
+File: img/test-strom.pdf Graphic file (type pdf)
+
+<use img/test-strom.pdf>
+Package pdftex.def Info: img/test-strom.pdf used on input line 451.
+(pdftex.def)             Requested size: 253.04987pt x 90.3476pt.
+
+Underfull \hbox (badness 4060) in paragraph at lines 456--458
+\T1/ptm/m/n/10 ro-tor-fe-sten $\OML/cmm/m/it/10 d; q\OMS/cmsy/m/n/10  $\T1/ptm/
+m/n/10 Koordinatensystems ab. Prin-zi-pi-ell kön-
+ []
+
+
+Overfull \hbox (7.64249pt too wide) in paragraph at lines 481--481
+[] 
+ []
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 641--641
 []\T1/ptm/m/n/10 Germar Mül-ler. \T1/ptm/m/it/10 Elek-tri-sche Ma-schi-nen\T1/p
 tm/m/n/10 . Wein-heim:
  []
 
-** WARNING: \IEEEbiography is locked out when in conference mode (line 623).
+[4 <D:/ident/img/test-strom.pdf>]
+** WARNING: \IEEEbiography is locked out when in conference mode (line 661).
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -923,17 +940,17 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4
+[5
 
 ] (D:\ident\main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 10003 strings out of 493921
- 160240 string characters out of 3144866
- 575960 words of memory out of 3000000
- 13071 multiletter control sequences out of 15000+200000
- 107290 words of font info for 111 fonts, out of 3000000 for 9000
+ 10020 strings out of 493921
+ 160518 string characters out of 3144866
+ 573018 words of memory out of 3000000
+ 13084 multiletter control sequences out of 15000+200000
+ 107911 words of font info for 113 fonts, out of 3000000 for 9000
  846 hyphenation exceptions out of 8191
  44i,10n,59p,793b,1633s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<D:/Progra
@@ -952,9 +969,9 @@ ype1/urw/courier/ucrr8a.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
 times/utmb8a.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi
 8a.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><D:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (4 pages, 250857 bytes).
+Output written on main.pdf (5 pages, 616913 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
+ 142 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

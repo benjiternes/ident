@@ -351,7 +351,7 @@ Die Spannungsgleichungen lassen sich gemäß Abb.~\ref{fig:spannungsgleichungen}
 
 \begin{figure}
 %\centering
-\includegraphics[width=1.25\columnwidth]{img/spannungsgleichungen}
+\includegraphics[width=\columnwidth]{img/spannungsgleichungen}
 \label{fig:spannungsgleichungen}
 \caption{Graphische Darstellung der Gleichungen (\ref{ud-allg}) und (\ref{uq-allg}).}
 \end{figure}
@@ -409,7 +409,7 @@ Eisenverluste gelungen. \autocite[S.~65]{Kellner2012}}
 Für die Identifikation der Eisenverluste bietet es sich an, die Maschine mit einem Teststrom zu speisen.
 Dafür muss zwingend eine Vorschrift für die Beschreibung der Eisenverluste eingeführt werden, s.~h. \autocite[S.~75]{Kellner2012}.
 
-\subsection{Identifikation des Stränderwiderstands und der Ständertemperatur}\label{sec:sident}
+\subsection{Identifikation des Stränderwiderstands}\label{sec:sident}
 
 Der Ständerwiderstand $R_1$ ist eine wichtige Kenngröße für den Betrieb elektrischer Maschinen.
 Bei dem modellbasierten EMK-Verfahren für kleine Drehzahlen, z. B. \autocite{genduso}, ist es notwendig eine möglichst genauen Ständerwiderstand zu bekommen.
@@ -422,12 +422,15 @@ Es gibt auf dem Gebiet \enquote{Verfahren zur Identifikation der Parameter von p
 Viele Autoren verwenden den \texttt{MRAC}-Algorithmus (model-reference adaptive control) zur Identifikation des Ständerwiderstandes \autocite{slotine_applied_1991}.
 Der prinzipielle Aufbau ist in Abb.~\ref{fig:synchron-grundlage} gezeigt.
 
-%\begin{figure}
-
-%\end{figure}
+\begin{figure}
+%\centering
+\includegraphics[width=\columnwidth]{img/mrac}
+\label{fig:mrac}
+\caption{Prinzipielle Darstellung eines \texttt{MRAC}-Algorithmus nach \textcite{slotine_applied_1991}.}
+\end{figure}
 
 Wenn bekannt ist, welchen Verlauf die Ausgangsgröße der Strecke bei einer bestimmten Eingangsgröße haben soll, dann kann diese mathematische Beziehung in einem Referenzmodell hinterlegt werden.
-Der Algorithmus ist in \autocite{slotine_applied_1991} genauer beschrieben.
+Der Algorithmus ist in \autocite{slotine_applied_1991} genauer beschrieben (s.~h.~Abb.~\ref{fig:mrac}).
 Bei der Parameteridentifikation kann das mathematische Referenzmodell die Gleichungen der PMSM beschreiben, der Regler passt über den Ständerwiderstand die unbekannte Strecke an, bis sie den idealen Maschinengleichungen entsprechen.
 Sind die Parameter der Maschine nicht genau bekannt, dann ist es nicht möglich ein genaues Referenzmodell zu erstellen.
 Eine andere Möglichkeit zur Identifikation des Ständerwiderstandes ist die Einprägung von Testsignalen in $d-$ und $q-$Richtung.
@@ -442,6 +445,14 @@ Weitere Ansätze zur Identifikation des Ständerwiderstandes sind in \textcite{K
 Diese Möglichkeit gilt nicht für alle Betriebsbereiche. 
 Aus diesem Grund wird ein weiteres Verfahren eingeführt, welches robust und resourcenschonend ist.
 Durch die Injektion eines niederfrequenten $i_d$-Strom-Testsignales kann die $u_d$-Spannungsgleichung ausgewertet werden.
+
+\begin{figure}
+%\centering
+\includegraphics[width=\columnwidth]{img/test-strom}
+\label{fig:test-strom}
+\caption{Prinzipieller Teststromverlauf, Blau: Idealer Stromverlauf. Grün: Realer Stromverlauf.}
+\end{figure}
+
 Der gesamte Identifikationsprozess läuft innerhalb des rotorfesten $d, q-$Koordinatensystems ab.
 Prinzipiell können sowohl die $u_d$-Spannungsgleichung, als auch die $u_q$-Spannungsgleichung verwendet werden.
 
@@ -456,7 +467,34 @@ Damit kann die Gleichung für den identifizierten Ständerwiderstand nach \textc
 R_{1,ident} = \frac{1}{i_d''-i_d'} \cdot \left( u_d'' - u_d' + \omega_{el}'' L_q^{i_d'',i_q''}i_q'' - \omega'_{el}L_q^{i_d',i_q'}i_q' \right)
 \end{align}
 
+\subsection{Identifikation der Flussverkettung}\label{sec:ident-fluss}
 
+Für die Identifikation der Flussverkettung $\Psi_{pm}$ kann das gleiche Testsignale in $d-$Richtung verwendet werden, wie bei der Identifikation des Ständerwiderstandes.
+Bei der Identifikation des Flusses werden nur stationäre Zustände betrachtet \autocite{Kellner2012}, daher können die Ableitungen der Ströme weggelassen werden, da sie im Mittel ohnehin null ergeben.
+Für die Identifikation des Flusses wird die $u_q-$Gleichung (s.~h.~Gl.~\ref{uq-allg}) verwendet.
+Da der Teststrom nur in $d-$Richtung eingeprägt wird, kann $i_q$ als konstant angenommen werden.
+Das Gleiche gilt für $\psi_{pm}$.
+Durch Umformungen und vereinfachen der allgemeinen Gleichungen und der Annahme, dass $\omega_{el}=\textbf{const.}$ gilt nach \textcite{Kellner2012} für die Identifikation von $\Psi_{pm}$
+
+\begin{align}
+\tilde{\Psi}_{pm} = \frac{1}{2\tilde{\omega}_{el}} \left[ (u_q' + u_q'') - R_{1,ident}(i_q' + i_q'')- \tilde{\omega}_{el}\tilde{L}_d(i_d' + i_d'') \right]
+\end{align}
+
+mit $\tilde{\omega}_{el}=\frac{\omega_{el}'+\omega_{el}''}{2}$ und $\tilde{L}_d = \frac{1}{\tilde{\omega_{el}}}\cdot \frac{u_q'' - u_q'}{i_d''-i_d'}$
+
+Das Verfahren entspricht der Mittelwertbildung aus den alternierenden Betriebszuständen, die durch die Testsignalspeisung für die Ständerwiderstandsidentifikation entstehen.
+Andere Ansätze zur Identifikation des Flusses sind Theorien zur Geschwindigkeitsänderung und damit auch der Zustandsänderung.
+
+\section{Parameterfehler}\label{sec:parameterfehler}
+
+Zur Regelung von hochdynamischen elektrischen Maschinen, aber auch für deren Simulation sollten die Parameter der Maschine idealerweise exakt bekannt sein.
+Je größer der Fehler ist, desto weniger bilden die Modelle die Realität ab.
+Damit wird die Regeldynamik direkt verringert.
+Ziel muss es also sein, die elektrischen Parameter~--~bei einer PMSM im wesentlichen der ohmsche Ständerwiderstand, der Permanentfluss und die Induktivitäten~--~möglichst exakt messbar sein.
+
+Die Parameter $R_{1}, L$ und $Psi_{pm}$ können nicht direkt gemessen werden, sondern werden aus anderen gemessenen Größen berechnet.
+Die resultierenden Probleme wirken sich auf die Drehmomentenberechnung und die Lagewinkelberechnung bei geberloser Regelung aus.
+Beispiele für Fehler der Messgrößen sind Ungenauigkeiten der Umrichterlinearisierung oder Toleranzen der Stromsensoren.
 
 % needed in second column of first page if using \IEEEpubid
 %\IEEEpubidadjcol

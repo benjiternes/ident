@@ -10,4 +10,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-A}}Ber\IeC {\"u}cksichtigung der Eisenverluste}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-B}}Identifikation des Str\IeC {\"a}nderwiderstands und der St\IeC {\"a}ndertemperatur}{3}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-B}}Identifikation des Str\IeC {\"a}nderwiderstands}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-C}}Identifikation der Flussverkettung}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {III}Parameterfehler}{4}
