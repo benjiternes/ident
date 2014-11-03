@@ -1,0 +1,126 @@
+\documentclass{beamer}
+\usepackage[ngerman,english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[autostyle,babel,german=guillemets,style=german]{csquotes}
+
+%---------------------------------------------------------------------
+% Globale Variabeln
+%---------------------------------------------------------------------
+\newcommand{\event}{Hochvolt Systeme}
+\newcommand{\location}{Bochum}
+\newcommand{\dt}{\today}
+\renewcommand{\i}[1]{\mathrm{#1}}  				% Date of presentation
+%---------------------------------------------------------------------
+
+\usepackage[%
+ backend=biber,%
+ style=authoryear,%
+ bibstyle=authoryear,%
+ citestyle=authoryear,%
+ natbib=false,%
+ sorting=anyt,%
+ sortcites=true,%
+ hyperref=auto,%
+ maxnames=10,%
+ minnames=1,%
+ refsection=subsection,%
+ dashed=false%
+]{biblatex}
+
+\bibliography{bibo}
+\setlength{\bibitemsep}{0.5em}
+
+\defbibheading{bibliography}[\bibname]{%
+\subsubsection*{#1}%
+\markboth{#1}{#1}}
+
+\usetheme[%
+wiwi,
+%nav,        		  	%% Schaltet die Navigationssymbole ein
+%frutiger,				%% Ändert die Schrift in Frutiger
+%mathpazo,				%% mathpazo Schrift
+mathptmx,				%% Times Schrift
+colorful,    			%% Farbige Balken im infolines-Theme
+%infoSub,				%% Aktiviert Infoline mit Subsections
+infoline,				%% Aktiviert die Infoline über dem Frametitle
+squares,     			%% Aufzaehlungspunkte rechteckig
+nologo       			%% Kein Logo im Seitenhintergrund
+]{FUH}
+
+\title[Parameteridentifikation]{Parameteridentifikation bei PMSM}
+
+\author[Benjamin Ternes]%
+{%
+Benjamin Ternes
+}
+
+\institute{%
+Fachbereich Elektrotechnik und Informatik}
+
+\begin{document}
+
+\begin{frame}[plain]
+	\titlepage
+\end{frame}
+
+\begin{frame}[plain]{Agenda}
+	\tableofcontents
+\end{frame}
+
+\section{Einleitung}
+\begin{frame}{Allgemeines}
+\begin{itemize}
+\item PMSM in einer Vielzahl unterschiedlicher Anwendungen (vorallem kleinen bis mittleren Leistungen)
+\item Hochdynamische Antriebsmotoren (hochdynamische Regelung)
+\item Hochdynamische Regelungen benötigen die »Induktivitäten« der Maschine (abh. vom momentanen Strom)
+\item Flussverkettung $\psi$ ändert sich aufgrund von Alterungserscheinungen und Temperaturveränderungen
+\item Ohmscher Ständerwiderstand kann sich im Betrieb fast verdoppeln
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Drehmoment}
+\begin{block}{Motordrehmoment}
+\begin{align}
+M_\i{i}= \frac{3}{2}\cdot Z_\i{p} \cdot (\underbrace{\psi_\i{PM}\cdot I_\i{q}}_\i{\text{~Hauptmoment}} + \underbrace{(L_\i{d}-L_\i{q})\cdot I_\i{d}\cdot I_\i{q}}_\i{\text{~Reluktanzmoment}})
+\end{align}
+\end{block}
+\end{frame}
+
+\section{Induktivitäten}
+\begin{frame}{Induktivitäten}
+\begin{itemize}
+\item offline gemessen
+\item Finite-Elemente-Berechnung (FEM)
+\end{itemize}
+Ansätze nach \textcite{kellner2012}
+\begin{enumerate}
+\item durch Testsignale die differentielle Induktivität,
+\item $n=const.$ die absoluten Induktivitäten identifiziert werden
+\end{enumerate}
+\end{frame}
+
+\subsection{Block mit Aufzählungen}
+\begin{frame}{Block}
+\begin{block}{Title}
+Das ist ein Block mit Aufzählungen:
+\begin{itemize}
+	\item 1
+	\item 2
+	\item 3
+	\item \ldots
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Zitate}
+Auch in der Beamer Klasse lassen sich Zitate einfach darstellen:\vspace*{1.5cm}
+\enquote{Der Begriff Typografie (gr.\ typographia) lässt sich auf mehrere Bereiche anwenden, obwohl er sich im eigentlichen Sinne nur auf die Kunst der Schrift bezieht. In der heutigen Zeit wendet man den Begriff jedoch auf alle Bereiche an, in denen Schrift in irgendeiner Weise involviert ist, beispielsweise bei Präsentationen. [\ldots]}~\parencite[S.~7]{voss2012}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Bibliography}
+\nocite{*}
+\printbibliography
+\end{frame}
+
+\end{document}

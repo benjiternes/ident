@@ -1,0 +1,64 @@
+\ProvidesPackage{beamercolorthemeFUH}[2014/06/12]
+
+\mode<presentation>
+
+\definecolor{FernUni}{cmyk}{0,1,1,0}
+\definecolor{titlered}{cmyk}{0.4,0,1.0,0}
+\definecolor{textgrey}{RGB}{43,88,108}
+
+%% Fakultaetsfarben
+\definecolor{wiwi}{cmyk}{0,1,1,0}
+
+%% Grautoene
+\definecolor{blaugrau}{RGB}{122,147,171}
+\definecolor{blaugrauhell}{RGB}{200,209,219}
+\definecolor{blaugraumittel}{RGB}{165,182,199}
+\definecolor{blaugraudunkel}{RGB}{74,101,125}
+\definecolor{hellerfond}{RGB}{227,232,235}
+\definecolor{blauschwarz}{RGB}{50,71,91}
+
+\setbeamercolor*{FUH wiwi}{fg=black, bg=titlered}
+
+%% Definiere die Farbpaletten
+%% Farbige Paletten
+\ifbeamer@FUH@colorful
+  \setbeamercolor*{palette primary}{fg=white,bg=FernUni}
+  \setbeamercolor*{palette secondary}{fg=white,bg=FernUni}
+  \setbeamercolor*{palette tertiary}{fg=white,bg=wiwi}
+  \setbeamercolor*{palette quaternary}{fg=white,bg=wiwi}
+\else
+%% graue Paletten
+  \setbeamercolor*{palette primary}{fg=white,bg=blaugrauhell}
+  \setbeamercolor*{palette secondary}{fg=white,bg=blaugrauhell}
+  \setbeamercolor*{palette tertiary}{fg=blaugraudunkel,bg=hellerfond}
+  \setbeamercolor*{palette quaternary}{fg=blaugraudunkel,bg=hellerfond}
+\fi
+
+\setbeamercolor*{author in head/foot}{parent=palette primary}
+
+%% Farben fuer die block-Umgebung
+\setbeamercolor*{block title}{bg=titlered, fg=blauschwarz}
+\setbeamercolor*{block body}{bg=hellerfond}
+
+%% Exampleblock
+\setbeamercolor*{block title example}{bg=titlered, fg=white}%
+\setbeamercolor*{block body example}{bg=hellerfond}%
+
+%% Alertblock
+\setbeamercolor*{block title alerted}{bg=FernUni, fg=white}%
+\setbeamercolor*{block body alerted}{bg=hellerfond}%
+
+
+\setbeamercolor*{date in head/foot}{fg=black}
+
+\setbeamercolor*{frametitle}{fg=FernUni}
+\setbeamercolor*{titlelike}{fg=FernUni}
+
+\setbeamercolor*{normal text}{fg=black} 
+\setbeamercolor*{section in toc}{fg=black}
+\setbeamercolor*{item}{fg=FernUni}
+
+\setbeamercolor*{button}{bg=hellerfond}
+
+\mode
+<all>

@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.19)  30 OCT 2014 19:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.19)  3 NOV 2014 16:17
 entering extended mode
 **main.tex
-(D:\schugt\main.tex
+(D:\ident\main.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +13,7 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(D:\schugt\IEEEtran.cls
+(D:\ident\IEEEtran.cls
 Document Class: IEEEtran 2012/11/21 V1.8c by Harald Hanche-Olsen and Anders Chr
 istensen
 -- Based on V1.7a by Michael Shell
@@ -365,16 +365,16 @@ Package: babel 2008/07/08 v3.8m The Babel package
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\ngermanb.ldf"
-Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
+("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\germanb.ldf"
+Language: germanb 2008/06/01 v2.6m German support from the babel system
 
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count109
 \U@D=\dimen117
 )
-\l@naustrian = a dialect from \language\l@ngerman 
-Package babel Info: Making " an active character on input line 92.
+\l@austrian = a dialect from \language\l@german 
+Package babel Info: Making " an active character on input line 102.
 ))
 (C:\Users\benjamin\AppData\Roaming\MiKTeX\2.9\tex\latex\csquotes\csquotes.sty
 Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
@@ -781,18 +781,12 @@ File: biblatex.cfg
 )))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
-Package biblatex Info: Trying to load language 'ngerman'...
-Package biblatex Info: ... file 'ngerman.lbx' found.
-
-(C:\Users\benjamin\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\lbx\ngerman.lb
-x
-File: ngerman.lbx 2014/06/25 v2.9a biblatex localization (PK/JW/AB)
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
 (C:\Users\benjamin\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\lbx\german.lbx
 File: german.lbx 2014/06/25 v2.9a biblatex localization (PK/JW/AB)
-)) (D:\schugt\main.aux)
+) (D:\ident\main.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 190.
 LaTeX Font Info:    ... okay on input line 190.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 190.
@@ -865,62 +859,59 @@ Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (D:\schugt\main.bbl)
+ (D:\ident\main.bbl)
 Package biblatex Info: Reference section=0 on input line 190.
 Package biblatex Info: Reference segment=0 on input line 190.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 255.
+(Font)              <7> on input line 238.
 <<omx.cmap>>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 255.
+(Font)              <5> on input line 238.
 
-(D:\schugt\texta.tex
+(D:\ident\main.toc)
+\tf@toc=\write4
+
 <img/synchron-grundlage.pdf, id=6, 398.28256pt x 256.18561pt>
 File: img/synchron-grundlage.pdf Graphic file (type pdf)
 
 <use img/synchron-grundlage.pdf>
-Package pdftex.def Info: img/synchron-grundlage.pdf used on input line 19.
+Package pdftex.def Info: img/synchron-grundlage.pdf used on input line 293.
 (pdftex.def)             Requested size: 253.04987pt x 162.76595pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 21.
+(Font)              <8> on input line 295.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 21.
+(Font)              <6> on input line 295.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [1{C:/Users/benjamin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
- <D:/schugt/img/synchron-grundlage.pdf>]
-<img/spannungsgleichungen.pdf, id=31, 398.28238pt x 113.92201pt>
+ <D:/ident/img/synchron-grundlage.pdf>]
+<img/spannungsgleichungen.pdf, id=30, 398.28238pt x 113.92201pt>
 File: img/spannungsgleichungen.pdf Graphic file (type pdf)
 
 <use img/spannungsgleichungen.pdf>
-Package pdftex.def Info: img/spannungsgleichungen.pdf used on input line 80.
-(pdftex.def)             Requested size: 253.04987pt x 72.37964pt.
-)
-** WARNING: \IEEEbiography is locked out when in conference mode (line 418).
+Package pdftex.def Info: img/spannungsgleichungen.pdf used on input line 354.
+(pdftex.def)             Requested size: 316.31233pt x 90.47542pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--424
-[]\T1/ptm/m/n/10 Gert Hag-mann. \T1/ptm/m/it/10 Grund-la-gen der Elek-tro-tech-
-nik\T1/ptm/m/n/10 .
+Overfull \hbox (63.26247pt too wide) in paragraph at lines 354--356
+[][]
  []
 
-[2 <D:/schugt/img/spannungsgleichungen.pdf>]
-Underfull \hbox (badness 2653) in paragraph at lines 424--424
+[2 <D:/ident/img/spannungsgleichungen.pdf>]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 422.
+
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) [3]
+Underfull \hbox (badness 2653) in paragraph at lines 603--603
 []\T1/ptm/m/n/10 Germar Mül-ler. \T1/ptm/m/it/10 Elek-tri-sche Ma-schi-nen\T1/p
 tm/m/n/10 . Wein-heim:
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 424--424
-[]\T1/ptm/m/n/10 Lothar Pa-pu-la. \T1/ptm/m/it/10 Ma-the-ma-ti-sche For-melsamm
--lung\T1/ptm/m/n/10 .
- []
-
-
-Underfull \hbox (badness 1675) in paragraph at lines 424--424
-\T1/ptm/m/n/10 Stator- und Ro-to-r-ober-strö-men in Ab-hän-gig-keit der
- []
-
+** WARNING: \IEEEbiography is locked out when in conference mode (line 623).
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -932,32 +923,38 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3] (D:\schugt\main.aux)
+[4
+
+] (D:\ident\main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 9982 strings out of 493921
- 160230 string characters out of 3144866
- 585235 words of memory out of 3000000
- 13053 multiletter control sequences out of 15000+200000
- 105562 words of font info for 108 fonts, out of 3000000 for 9000
- 848 hyphenation exceptions out of 8191
- 44i,8n,56p,793b,1317s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 10003 strings out of 493921
+ 160240 string characters out of 3144866
+ 575960 words of memory out of 3000000
+ 13071 multiletter control sequences out of 15000+200000
+ 107290 words of font info for 111 fonts, out of 3000000 for 9000
+ 846 hyphenation exceptions out of 8191
+ 44i,10n,59p,793b,1633s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<D:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/urw/times/utmb8a.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/urw/times/utmbi8a.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/t
-imes/utmr8a.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8
-a.pfb>
-Output written on main.pdf (3 pages, 211424 bytes).
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmsy5.pfb><D:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmsy7.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/urw/courier/ucrr8a.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
+times/utmb8a.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi
+8a.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><D:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (4 pages, 250857 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
+ 107 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

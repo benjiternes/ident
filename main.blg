@@ -2,14 +2,14 @@
 [0] Config.pm:323> INFO - Logfile is 'main.blg'
 [26] biber-MSWIN:274> INFO - === %a %b %e, %Y, %H:%M:%S
 [26] Biber.pm:333> INFO - Reading 'main.bcf'
-[81] Biber.pm:632> INFO - Using all citekeys in bib section 0
-[105] Biber.pm:3051> INFO - Processing section 0
-[128] Biber.pm:3189> INFO - Looking for bibtex format file 'bibo.bib' for section 0
-[133] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
-[137] bibtex.pm:864> INFO - Found BibTeX data source 'bibo.bib'
-[473] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[473] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[473] Biber.pm:2928> INFO - Sorting list 'anyt' of type 'entry' with scheme 'anyt' and locale 'de-DE'
-[473] Biber.pm:2932> INFO - No sort tailoring available for locale 'de-DE'
-[585] bbl.pm:517> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[589] bbl.pm:606> INFO - Output to main.bbl
+[85] Biber.pm:635> INFO - Found 15 citekeys in bib section 0
+[109] Biber.pm:3051> INFO - Processing section 0
+[131] Biber.pm:3189> INFO - Looking for bibtex format file 'bibo.bib' for section 0
+[135] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
+[139] bibtex.pm:864> INFO - Found BibTeX data source 'bibo.bib'
+[273] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[273] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[273] Biber.pm:2928> INFO - Sorting list 'anyt' of type 'entry' with scheme 'anyt' and locale 'de-DE'
+[273] Biber.pm:2932> INFO - No sort tailoring available for locale 'de-DE'
+[307] bbl.pm:517> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[309] bbl.pm:606> INFO - Output to main.bbl

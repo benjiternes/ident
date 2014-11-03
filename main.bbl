@@ -19,106 +19,6 @@
 
 \refsection{0}
   \sortlist{anyt}{anyt}
-    \entry{binder2012}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=9146ec5d9e19640ffa5991ea94027788}{Binder}{B\bibinitperiod}{Andreas}{A\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=9146ec5d9e19640ffa5991ea94027788}{Binder}{B\bibinitperiod}{Andreas}{A\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Berlin}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{9146ec5d9e19640ffa5991ea94027788}
-      \strng{fullhash}{9146ec5d9e19640ffa5991ea94027788}
-      \field{sortinit}{B}
-      \field{sortinithash}{1a3a21dbed09540af12d49a0b14f4751}
-      \field{labeltitle}{Elektrische Maschinen und Antriebe}
-      \field{shorttitle}{Elektrische Maschinen und Antriebe}
-      \field{title}{Elektrische Maschinen und Antriebe: Übungsbuch - Aufgaben mit Lösungsweg}
-      \field{year}{2012}
-    \endentry
-    \entry{bolte2012}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=5c1e33bc23556c3f2d666a4656b91d44}{Bolte}{B\bibinitperiod}{Ekkehard}{E\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=5c1e33bc23556c3f2d666a4656b91d44}{Bolte}{B\bibinitperiod}{Ekkehard}{E\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Berlin, Heidelberg}%
-      }
-      \list{publisher}{1}{%
-        {Springer Berlin Heidelberg}%
-      }
-      \strng{namehash}{5c1e33bc23556c3f2d666a4656b91d44}
-      \strng{fullhash}{5c1e33bc23556c3f2d666a4656b91d44}
-      \field{sortinit}{B}
-      \field{sortinithash}{1a3a21dbed09540af12d49a0b14f4751}
-      \field{labeltitle}{Elektrische Maschinen}
-      \field{langid}{german}
-      \field{title}{Elektrische Maschinen}
-      \field{urlday}{14}
-      \field{urlmonth}{07}
-      \field{urlyear}{2014}
-      \field{year}{2012}
-    \endentry
-    \entry{bronstein}{book}{}
-      \name{labelname}{4}{}{%
-        {{hash=ba6c811366f3a6be3e43921f441b6a21}{Bronstein}{B\bibinitperiod}{I.\bibnamedelimi N.}{I\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
-        {{hash=fc5c3db79154d7982339f7bbea5042cc}{Semendjajew}{S\bibinitperiod}{K.\bibnamedelimi A.}{K\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=011997357a6c0ca5b6be8509306c2e71}{Musiol}{M\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=acbac383f6417e0186bec6893cddde35}{Mühling}{M\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{4}{}{%
-        {{hash=ba6c811366f3a6be3e43921f441b6a21}{Bronstein}{B\bibinitperiod}{I.\bibnamedelimi N.}{I\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
-        {{hash=fc5c3db79154d7982339f7bbea5042cc}{Semendjajew}{S\bibinitperiod}{K.\bibnamedelimi A.}{K\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=011997357a6c0ca5b6be8509306c2e71}{Musiol}{M\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=acbac383f6417e0186bec6893cddde35}{Mühling}{M\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Frankfurt am Main}%
-      }
-      \list{publisher}{1}{%
-        {Verlag Harri Deutsch}%
-      }
-      \strng{namehash}{5427302109272ae1657c5597a4c5e09d}
-      \strng{fullhash}{8c9ed7e11aa424edc71a2e2ef136e6a8}
-      \field{sortinit}{B}
-      \field{sortinithash}{1a3a21dbed09540af12d49a0b14f4751}
-      \field{labeltitle}{Taschenbuch der Mathematik}
-      \field{edition}{8}
-      \field{title}{Taschenbuch der Mathematik}
-      \field{year}{2012}
-    \endentry
-    \entry{felderhoff2006}{book}{}
-      \name{labelname}{2}{}{%
-        {{hash=87455fc683cc754127845db77b1009b2}{Felderhoff}{F\bibinitperiod}{Rainer}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=579168773677ecb43d8f5ce61771b0ad}{Busch}{B\bibinitperiod}{Udo}{U\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=87455fc683cc754127845db77b1009b2}{Felderhoff}{F\bibinitperiod}{Rainer}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=579168773677ecb43d8f5ce61771b0ad}{Busch}{B\bibinitperiod}{Udo}{U\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {München}%
-      }
-      \list{publisher}{1}{%
-        {Hanser}%
-      }
-      \strng{namehash}{aa29b1defaaf790e3933e26f9f97550d}
-      \strng{fullhash}{aa29b1defaaf790e3933e26f9f97550d}
-      \field{sortinit}{F}
-      \field{sortinithash}{9661cce5f16ac30b6b0c804d4583ed99}
-      \field{labeltitle}{Leistungselektronik}
-      \field{edition}{4}
-      \field{shorttitle}{Leistungselektronik}
-      \field{title}{Leistungselektronik}
-      \field{year}{2006}
-    \endentry
     \entry{fischer2009}{book}{}
       \name{labelname}{1}{}{%
         {{hash=f2602e9eaec519b16da9b08ddf54c662}{Fischer}{F\bibinitperiod}{Rolf}{R\bibinitperiod}{}{}{}{}}%
@@ -140,30 +40,6 @@
       \field{edition}{14}
       \field{title}{Elektrische Maschinen}
       \field{year}{2009}
-    \endentry
-    \entry{fuest2004}{book}{}
-      \name{labelname}{2}{}{%
-        {{hash=8d7a3b2425f6cfb561b2766e0e64d746}{Fuest}{F\bibinitperiod}{Klaus}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=db17b532fa88802824873968f14307a6}{Döring}{D\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=8d7a3b2425f6cfb561b2766e0e64d746}{Fuest}{F\bibinitperiod}{Klaus}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=db17b532fa88802824873968f14307a6}{Döring}{D\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Wiesbaden}%
-      }
-      \list{publisher}{1}{%
-        {Vieweg}%
-      }
-      \strng{namehash}{7c834f418844b6592d7036417431e828}
-      \strng{fullhash}{7c834f418844b6592d7036417431e828}
-      \field{sortinit}{F}
-      \field{sortinithash}{9661cce5f16ac30b6b0c804d4583ed99}
-      \field{labeltitle}{Elektrische Maschinen und Antriebe}
-      \field{shorttitle}{Elektrische Maschinen und Antriebe}
-      \field{title}{Elektrische Maschinen und Antriebe: Lehr- und Arbeitsbuch ; mit zahlreichen durchgerechneten Beispielen und Übungen sowie Fragen und Aufgaben zur Vertiefung des Lehrstoffes}
-      \field{year}{2004}
     \endentry
     \entry{genduso}{article}{}
       \name{labelname}{4}{}{%
@@ -189,151 +65,6 @@
       \field{year}{2010}
       \field{pages}{2092\bibrangedash 2100}
     \endentry
-    \entry{gerke2012}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=4b4acc4d2f536ca182cf51357b6b2c50}{Gerke}{G\bibinitperiod}{Wolfgang}{W\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=4b4acc4d2f536ca182cf51357b6b2c50}{Gerke}{G\bibinitperiod}{Wolfgang}{W\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{4b4acc4d2f536ca182cf51357b6b2c50}
-      \strng{fullhash}{4b4acc4d2f536ca182cf51357b6b2c50}
-      \field{sortinit}{G}
-      \field{sortinithash}{480ee01f9ffd559b3258d822f54a8ac2}
-      \field{labeltitle}{Elektrische Maschinen und Aktoren}
-      \field{shorttitle}{Elektrische Maschinen und Aktoren}
-      \field{title}{Elektrische Maschinen und Aktoren: Eine anwendungsorientierte Einführung}
-      \field{urlday}{13}
-      \field{urlmonth}{07}
-      \field{urlyear}{2014}
-      \field{year}{2012}
-    \endentry
-    \entry{glasl}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=a68422366dec478d70fef848d6b50976}{Glasl}{G\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=aa07ea8c54cdf8e0a9ff169cc873a69d}{Wittmann}{W\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=a68422366dec478d70fef848d6b50976}{Glasl}{G\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=aa07ea8c54cdf8e0a9ff169cc873a69d}{Wittmann}{W\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{07bda2550dc62ce263c89752f2de8d69}
-      \strng{fullhash}{07bda2550dc62ce263c89752f2de8d69}
-      \field{sortinit}{G}
-      \field{sortinithash}{480ee01f9ffd559b3258d822f54a8ac2}
-      \field{labeltitle}{Feldorientierte Regelung der Permanentmagnet-Synchronmaschine auf Basis des Drehzahlistwertes mit Winkelfehlerkorrektur}
-      \field{journaltitle}{e \& i}
-      \field{title}{Feldorientierte Regelung der Permanentmagnet-Synchronmaschine auf Basis des Drehzahlistwertes mit Winkelfehlerkorrektur}
-      \field{volume}{120}
-      \field{year}{2003}
-    \endentry
-    \entry{Grune2012}{thesis}{}
-      \name{labelname}{1}{}{%
-        {{hash=3622463788a4cb6820a69c8bbc99d2e0}{Grune}{G\bibinitperiod}{Rayk}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=3622463788a4cb6820a69c8bbc99d2e0}{Grune}{G\bibinitperiod}{Rayk}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \list{institution}{1}{%
-        {TU Berlin}%
-      }
-      \strng{namehash}{3622463788a4cb6820a69c8bbc99d2e0}
-      \strng{fullhash}{3622463788a4cb6820a69c8bbc99d2e0}
-      \field{sortinit}{G}
-      \field{sortinithash}{480ee01f9ffd559b3258d822f54a8ac2}
-      \field{labeltitle}{Verlustoptimaler Betrieb einer elektrisch erregten Synchronmaschine für den Einsatz in Elektrofahrzeugen}
-      \field{title}{Verlustoptimaler Betrieb einer elektrisch erregten Synchronmaschine für den Einsatz in Elektrofahrzeugen}
-      \field{type}{Dissertation}
-      \field{year}{2012}
-    \endentry
-    \entry{hagmann}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=33a7d9a9998e42a7fcbf533ad49040ab}{Hagmann}{H\bibinitperiod}{Gert}{G\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=33a7d9a9998e42a7fcbf533ad49040ab}{Hagmann}{H\bibinitperiod}{Gert}{G\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Ulm}%
-      }
-      \list{publisher}{1}{%
-        {AULA}%
-      }
-      \strng{namehash}{33a7d9a9998e42a7fcbf533ad49040ab}
-      \strng{fullhash}{33a7d9a9998e42a7fcbf533ad49040ab}
-      \field{sortinit}{H}
-      \field{sortinithash}{95b2cb08933fe649b7e9f8beee2132b4}
-      \field{labeltitle}{Grundlagen der Elektrotechnik}
-      \field{edition}{13}
-      \field{title}{Grundlagen der Elektrotechnik}
-      \field{year}{2008}
-    \endentry
-    \entry{hahn}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=b921893c8e3eefdded083fb3b6da49ef}{Hahn}{H\bibinitperiod}{Ulrich}{U\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=b921893c8e3eefdded083fb3b6da49ef}{Hahn}{H\bibinitperiod}{Ulrich}{U\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {München}%
-      }
-      \list{publisher}{1}{%
-        {Oldenbourg}%
-      }
-      \strng{namehash}{b921893c8e3eefdded083fb3b6da49ef}
-      \strng{fullhash}{b921893c8e3eefdded083fb3b6da49ef}
-      \field{sortinit}{H}
-      \field{sortinithash}{95b2cb08933fe649b7e9f8beee2132b4}
-      \field{labeltitle}{Physik für Ingenieure}
-      \field{title}{Physik für Ingenieure}
-      \field{year}{2007}
-    \endentry
-    \entry{henke2011}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=04a0f0e551007747bd59d3b58088ea8d}{Henke}{H\bibinitperiod}{Heino}{H\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=04a0f0e551007747bd59d3b58088ea8d}{Henke}{H\bibinitperiod}{Heino}{H\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Berlin}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{04a0f0e551007747bd59d3b58088ea8d}
-      \strng{fullhash}{04a0f0e551007747bd59d3b58088ea8d}
-      \field{sortinit}{H}
-      \field{sortinithash}{95b2cb08933fe649b7e9f8beee2132b4}
-      \field{labeltitle}{Elektromagnetische Felder}
-      \field{edition}{4}
-      \field{shorttitle}{Elektromagnetische Felder}
-      \field{title}{Elektromagnetische Felder: Theorie und Anwendung}
-      \field{year}{2011}
-    \endentry
-    \entry{hofmann2013}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=7487acfe6f79b4954fc6912297f7943e}{Hofmann}{H\bibinitperiod}{Wilfried}{W\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=7487acfe6f79b4954fc6912297f7943e}{Hofmann}{H\bibinitperiod}{Wilfried}{W\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {München [u.a.]}%
-      }
-      \list{publisher}{1}{%
-        {Pearson}%
-      }
-      \strng{namehash}{7487acfe6f79b4954fc6912297f7943e}
-      \strng{fullhash}{7487acfe6f79b4954fc6912297f7943e}
-      \field{sortinit}{H}
-      \field{sortinithash}{95b2cb08933fe649b7e9f8beee2132b4}
-      \field{labeltitle}{Elektrische Maschinen}
-      \field{shorttitle}{Elektrische Maschinen}
-      \field{title}{Elektrische Maschinen}
-      \field{year}{2013}
-    \endentry
     \entry{Kellner2012}{thesis}{}
       \name{labelname}{1}{}{%
         {{hash=cbed34a957f19567e372df2240f45ef2}{Kellner}{K\bibinitperiod}{Sven}{S\bibinitperiod}{}{}{}{}}%
@@ -353,131 +84,31 @@
       \field{type}{Dissertation}
       \field{year}{2012}
     \endentry
-    \entry{knorrenschild}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=e56ea6310399e323daddbf817cb5073b}{Knorrenschild}{K\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=e56ea6310399e323daddbf817cb5073b}{Knorrenschild}{K\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {München}%
-      }
-      \list{publisher}{1}{%
-        {Hanser}%
-      }
-      \strng{namehash}{e56ea6310399e323daddbf817cb5073b}
-      \strng{fullhash}{e56ea6310399e323daddbf817cb5073b}
-      \field{sortinit}{K}
-      \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
-      \field{labeltitle}{Mathematik für Ingenieure 2: Angewandte Analysis im Bachelorstudium}
-      \field{title}{Mathematik für Ingenieure 2: Angewandte Analysis im Bachelorstudium}
-      \field{year}{2014}
-    \endentry
-    \entry{kovacs1959}{book}{}
+    \entry{kilthau_parameter-measurement_2001}{inproceedings}{}
       \name{labelname}{2}{}{%
-        {{hash=3ad1694fde29b9e65608d690b1a5a27e}{Kovács}{K\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=fe2524696f1172b37284844f7690fc6b}{Rácz}{R\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=1b4260281b429dac07e0c0268b811587}{Kilthau}{K\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=29c935001b908abc51a35daa9060c550}{Pacas}{P\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{2}{}{%
-        {{hash=3ad1694fde29b9e65608d690b1a5a27e}{Kovács}{K\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=fe2524696f1172b37284844f7690fc6b}{Rácz}{R\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Budapest}%
+        {{hash=1b4260281b429dac07e0c0268b811587}{Kilthau}{K\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=29c935001b908abc51a35daa9060c550}{Pacas}{P\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
-        {Verlag der ungarischen Akademie der Wissenschaften}%
+        {IEEE}%
       }
-      \strng{namehash}{833323b1b672413b183b36b546fce3f7}
-      \strng{fullhash}{833323b1b672413b183b36b546fce3f7}
+      \strng{namehash}{ed88071ec03197e1733338db79f4823e}
+      \strng{fullhash}{ed88071ec03197e1733338db79f4823e}
       \field{sortinit}{K}
       \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
-      \field{labeltitle}{Transiente Vorgänge in Wechselstrommaschinen}
-      \field{title}{Transiente Vorgänge in Wechselstrommaschinen}
-      \field{year}{1959}
-    \endentry
-    \entry{kremser2004}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=d5e5f4f330415ec1a3162e8b5161e647}{Kremser}{K\bibinitperiod}{Andreas}{A\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=d5e5f4f330415ec1a3162e8b5161e647}{Kremser}{K\bibinitperiod}{Andreas}{A\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Stuttgart [u.a.]}%
-      }
-      \list{publisher}{1}{%
-        {Teubner}%
-      }
-      \strng{namehash}{d5e5f4f330415ec1a3162e8b5161e647}
-      \strng{fullhash}{d5e5f4f330415ec1a3162e8b5161e647}
-      \field{sortinit}{K}
-      \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
-      \field{labeltitle}{Elektrische Maschinen und Antriebe}
-      \field{shorttitle}{Elektrische Maschinen und Antriebe}
-      \field{title}{Elektrische Maschinen und Antriebe}
-      \field{year}{2004}
-    \endentry
-    \entry{leitgeb}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=c6181de570b647ef06e4718bf65c0d87}{Leitgeb}{L\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=c6181de570b647ef06e4718bf65c0d87}{Leitgeb}{L\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{c6181de570b647ef06e4718bf65c0d87}
-      \strng{fullhash}{c6181de570b647ef06e4718bf65c0d87}
-      \field{sortinit}{L}
-      \field{sortinithash}{c41a2b5886eeae464e75d1a9df4cd13e}
-      \field{labeltitle}{Eine Möglichkeit der Feldschwachung dauermagneterregter Maschinen und ihre Auswirkung auf die Bemessungsleistung des Stromrichters}
-      \field{journaltitle}{Archiv für Elektrotechnik}
-      \field{title}{Eine Möglichkeit der Feldschwachung dauermagneterregter Maschinen und ihre Auswirkung auf die Bemessungsleistung des Stromrichters}
-      \field{volume}{76}
-      \field{year}{1993}
-      \field{pages}{293\bibrangedash 299}
-    \endentry
-    \entry{lutz}{book}{}
-      \name{labelname}{2}{}{%
-        {{hash=98e2131056647f91f02a34aea931cfb8}{Lutz}{L\bibinitperiod}{Holger}{H\bibinitperiod}{}{}{}{}}%
-        {{hash=e23c74c157a8dcea2aaeb7bc6f8c709a}{Wendt}{W\bibinitperiod}{Wolfgang}{W\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=98e2131056647f91f02a34aea931cfb8}{Lutz}{L\bibinitperiod}{Holger}{H\bibinitperiod}{}{}{}{}}%
-        {{hash=e23c74c157a8dcea2aaeb7bc6f8c709a}{Wendt}{W\bibinitperiod}{Wolfgang}{W\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Frankfurt am Main}%
-      }
-      \list{publisher}{1}{%
-        {Verlag Harri Deutsch}%
-      }
-      \strng{namehash}{f91128dd1bb9138b9697864de4589cde}
-      \strng{fullhash}{f91128dd1bb9138b9697864de4589cde}
-      \field{sortinit}{L}
-      \field{sortinithash}{c41a2b5886eeae464e75d1a9df4cd13e}
-      \field{labeltitle}{Taschenbuch der Regelungstechnik}
-      \field{edition}{9}
-      \field{title}{Taschenbuch der Regelungstechnik}
-      \field{year}{2012}
-    \endentry
-    \entry{mosebach}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=3ec26578cb158b63306b88f8a35deb67}{Mosebach}{M\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=3ec26578cb158b63306b88f8a35deb67}{Mosebach}{M\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{3ec26578cb158b63306b88f8a35deb67}
-      \strng{fullhash}{3ec26578cb158b63306b88f8a35deb67}
-      \field{sortinit}{M}
-      \field{sortinithash}{4203d16473bc940d4ac780773cb7c5dd}
-      \field{labeltitle}{Einfache analytische Rechenmodelle für permanentmagneterregte Synchronmaschinen}
-      \field{journaltitle}{Electrical Engineering}
-      \field{title}{Einfache analytische Rechenmodelle für permanentmagneterregte Synchronmaschinen}
-      \field{volume}{81}
-      \field{year}{1998}
-      \field{pages}{171\bibrangedash 176}
+      \field{labeltitle}{Parameter-measurement and control of the synchronous reluctance machine including cross saturation}
+      \field{booktitle}{Industry Applications Conference, 2001. Thirty-Sixth {IAS} Annual Meeting. Conference Record of the 2001 {IEEE}}
+      \field{title}{Parameter-measurement and control of the synchronous reluctance machine including cross saturation}
+      \field{urlday}{31}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{4}
+      \field{year}{2001}
+      \field{pages}{2302\bibrangedash 2309}
     \endentry
     \entry{mullerI2005}{book}{}
       \name{labelname}{1}{}{%
@@ -525,173 +156,82 @@
       \field{title}{Berechnung elektrischer Maschinen}
       \field{year}{2008}
     \endentry
-    \entry{nuss2010}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=51f8d18a40fb7ec42dd96bb74adbc296}{Nuss}{N\bibinitperiod}{Uwe}{U\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=51f8d18a40fb7ec42dd96bb74adbc296}{Nuss}{N\bibinitperiod}{Uwe}{U\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Berlin; Offenbach}%
-      }
-      \list{publisher}{1}{%
-        {VDE-Verl.}%
-      }
-      \strng{namehash}{51f8d18a40fb7ec42dd96bb74adbc296}
-      \strng{fullhash}{51f8d18a40fb7ec42dd96bb74adbc296}
-      \field{sortinit}{N}
-      \field{sortinithash}{a52ecf374d1aa02cdea5f29be4dad56c}
-      \field{labeltitle}{Hochdynamische Regelung elektrischer Antriebe}
-      \field{title}{Hochdynamische Regelung elektrischer Antriebe}
-      \field{year}{2010}
-    \endentry
-    \entry{papula_formel}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=e1a960583a3d7501bccdb258aeb929bd}{Papula}{P\bibinitperiod}{Lothar}{L\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=e1a960583a3d7501bccdb258aeb929bd}{Papula}{P\bibinitperiod}{Lothar}{L\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Wiesbaden}%
-      }
-      \list{publisher}{1}{%
-        {Vieweg}%
-      }
-      \strng{namehash}{e1a960583a3d7501bccdb258aeb929bd}
-      \strng{fullhash}{e1a960583a3d7501bccdb258aeb929bd}
-      \field{sortinit}{P}
-      \field{sortinithash}{b8af9282ac256b81613dc9012a0ac921}
-      \field{labeltitle}{Mathematische Formelsammlung}
-      \field{edition}{8}
-      \field{title}{Mathematische Formelsammlung}
-      \field{year}{2003}
-    \endentry
-    \entry{papula_bd2}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=e1a960583a3d7501bccdb258aeb929bd}{Papula}{P\bibinitperiod}{Lothar}{L\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=e1a960583a3d7501bccdb258aeb929bd}{Papula}{P\bibinitperiod}{Lothar}{L\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Wiesbaden}%
-      }
-      \list{publisher}{1}{%
-        {Vieweg+Teubner Verlag}%
-      }
-      \strng{namehash}{e1a960583a3d7501bccdb258aeb929bd}
-      \strng{fullhash}{e1a960583a3d7501bccdb258aeb929bd}
-      \field{sortinit}{P}
-      \field{sortinithash}{b8af9282ac256b81613dc9012a0ac921}
-      \field{labeltitle}{Mathematik für Ingenieure und Naturwissenschaftler: Band 1, Ein Lehr- und Arbeitsbuch für das Grundstudium}
-      \field{edition}{12}
-      \field{title}{Mathematik für Ingenieure und Naturwissenschaftler: Band 1, Ein Lehr- und Arbeitsbuch für das Grundstudium}
-      \field{year}{2009}
-    \endentry
-    \entry{papula_bd1}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=e1a960583a3d7501bccdb258aeb929bd}{Papula}{P\bibinitperiod}{Lothar}{L\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=e1a960583a3d7501bccdb258aeb929bd}{Papula}{P\bibinitperiod}{Lothar}{L\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Wiesbaden}%
-      }
-      \list{publisher}{1}{%
-        {Vieweg+Teubner Verlag}%
-      }
-      \strng{namehash}{e1a960583a3d7501bccdb258aeb929bd}
-      \strng{fullhash}{e1a960583a3d7501bccdb258aeb929bd}
-      \field{sortinit}{P}
-      \field{sortinithash}{b8af9282ac256b81613dc9012a0ac921}
-      \field{labeltitle}{Mathematik für Ingenieure und Naturwissenschaftler: Band 2, Ein Lehr- und Arbeitsbuch für das Grundstudium}
-      \field{edition}{12}
-      \field{title}{Mathematik für Ingenieure und Naturwissenschaftler: Band 2, Ein Lehr- und Arbeitsbuch für das Grundstudium}
-      \field{year}{2009}
-    \endentry
-    \entry{Perassi2006}{thesis}{}
-      \name{labelname}{1}{}{%
-        {{hash=e8d86faf3290cfee086f739f4d839357}{Perassi}{P\bibinitperiod}{Hector}{H\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=e8d86faf3290cfee086f739f4d839357}{Perassi}{P\bibinitperiod}{Hector}{H\bibinitperiod}{}{}{}{}}%
-      }
-      \list{institution}{1}{%
-        {TU Ilmenau}%
-      }
-      \strng{namehash}{e8d86faf3290cfee086f739f4d839357}
-      \strng{fullhash}{e8d86faf3290cfee086f739f4d839357}
-      \field{sortinit}{P}
-      \field{sortinithash}{b8af9282ac256b81613dc9012a0ac921}
-      \field{labeltitle}{Feldorientierte Regelung der permanenterregten Synchronmaschine ohne Lagegeber für den gesamten Drehzahlbereich bis zum Stillstand}
-      \field{title}{Feldorientierte Regelung der permanenterregten Synchronmaschine ohne Lagegeber für den gesamten Drehzahlbereich bis zum Stillstand}
-      \field{type}{Dissertation}
-      \field{year}{2006}
-    \endentry
-    \entry{quiroga}{article}{}
+    \entry{piippo_adaptation_2009}{article}{}
       \name{labelname}{3}{}{%
-        {{hash=7a89a0337eae3ae5625b25c12acf3e88}{Quiroga}{Q\bibinitperiod}{Jabid}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=6892142be3b8d2b1ef3c8ad1e8fca7d0}{Cartes}{C\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
-        {{hash=0fff551ab31ea24464f4e3ee3a4177e7}{Edrington}{E\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=186b7345b14ebf19a5964ff4aef63048}{Piippo}{P\bibinitperiod}{Antti}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=1e54c8b155cda72cac43021ef1b85261}{Hinkkanen}{H\bibinitperiod}{Marko}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=084036a5fe10104517181ea170064a68}{Luomi}{L\bibinitperiod}{Jorma}{J\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{3}{}{%
-        {{hash=7a89a0337eae3ae5625b25c12acf3e88}{Quiroga}{Q\bibinitperiod}{Jabid}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=6892142be3b8d2b1ef3c8ad1e8fca7d0}{Cartes}{C\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
-        {{hash=0fff551ab31ea24464f4e3ee3a4177e7}{Edrington}{E\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=186b7345b14ebf19a5964ff4aef63048}{Piippo}{P\bibinitperiod}{Antti}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=1e54c8b155cda72cac43021ef1b85261}{Hinkkanen}{H\bibinitperiod}{Marko}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=084036a5fe10104517181ea170064a68}{Luomi}{L\bibinitperiod}{Jorma}{J\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{30080fcab2ca81df8aa054b0084d6a73}
-      \strng{fullhash}{30080fcab2ca81df8aa054b0084d6a73}
-      \field{sortinit}{Q}
-      \field{sortinithash}{829524f3d072dc7a1e879f365f969857}
-      \field{labeltitle}{NEURAL NETWORK BASED SYSTEM IDENTIFICATION OF A PMSM UNDER LOAD FLUCTUATION}
-      \field{journaltitle}{Dyna}
-      \field{title}{NEURAL NETWORK BASED SYSTEM IDENTIFICATION OF A PMSM UNDER LOAD FLUCTUATION}
-      \field{volume}{160}
+      \strng{namehash}{445b97bc73dfb562db668e1a58cfe1af}
+      \strng{fullhash}{445b97bc73dfb562db668e1a58cfe1af}
+      \field{sortinit}{P}
+      \field{sortinithash}{b8af9282ac256b81613dc9012a0ac921}
+      \field{labeltitle}{Adaptation of motor parameters in sensorless {PMSM} drives}
+      \field{journaltitle}{Industry Applications, {IEEE} Transactions on}
+      \field{number}{1}
+      \field{title}{Adaptation of motor parameters in sensorless {PMSM} drives}
+      \field{urlday}{31}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{45}
       \field{year}{2009}
-      \field{pages}{273\bibrangedash 282}
+      \field{pages}{203\bibrangedash 212}
     \endentry
-    \entry{riefenstahl2010}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=b6be98e75ee536d6f730731e20301fe2}{Riefenstahl}{R\bibinitperiod}{Ulrich}{U\bibinitperiod}{}{}{}{}}%
+    \entry{rahman_identification_2005}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=4863582c7d637af82fd584df61fa1e35}{Rahman}{R\bibinitperiod}{K.M.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=d110f888a903a83e1f44a991bb4d3215}{Hiti}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{1}{}{%
-        {{hash=b6be98e75ee536d6f730731e20301fe2}{Riefenstahl}{R\bibinitperiod}{Ulrich}{U\bibinitperiod}{}{}{}{}}%
+      \name{author}{2}{}{%
+        {{hash=4863582c7d637af82fd584df61fa1e35}{Rahman}{R\bibinitperiod}{K.M.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=d110f888a903a83e1f44a991bb4d3215}{Hiti}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
       }
-      \list{publisher}{1}{%
-        {{Vieweg+Teubner} Verlag}%
-      }
-      \strng{namehash}{b6be98e75ee536d6f730731e20301fe2}
-      \strng{fullhash}{b6be98e75ee536d6f730731e20301fe2}
+      \strng{namehash}{00ca8749a461e2493df968ccf17c4d94}
+      \strng{fullhash}{00ca8749a461e2493df968ccf17c4d94}
       \field{sortinit}{R}
       \field{sortinithash}{ff5a3533ecf9d5a03ff60b1e1389b63d}
-      \field{labeltitle}{Elektrische Antriebssysteme: Grundlagen, Komponenten, Regelverfahren, Bewegungssteuerung.}
-      \field{edition}{3}
-      \field{title}{Elektrische Antriebssysteme: Grundlagen, Komponenten, Regelverfahren, Bewegungssteuerung.}
-      \field{year}{2010}
+      \field{labeltitle}{Identification of Machine Parameters of a Synchronous Motor}
+      \field{journaltitle}{{IEEE} Transactions on Industry Applications}
+      \field{month}{03}
+      \field{number}{2}
+      \field{title}{Identification of Machine Parameters of a Synchronous Motor}
+      \field{urlday}{31}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{41}
+      \field{year}{2005}
+      \field{pages}{557\bibrangedash 565}
     \endentry
-    \entry{scherf2010}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=858934048471764c863ce6e3b93c8564}{Scherf}{S\bibinitperiod}{Helmut}{H\bibinitperiod}{}{}{}{}}%
+    \entry{reinert_calculation_2001}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=060d6dc9845e6488102892f8b326c5db}{Reinert}{R\bibinitperiod}{Jürgen}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=3adc12a955021a26076d9a6c3645c425}{Brockmeyer}{B\bibinitperiod}{Ansgar}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=618fc9965068b57a4653c282aeeec70f}{De\bibnamedelima Doncker}{D\bibinitperiod\bibinitdelim D\bibinitperiod}{Rik\bibnamedelima {WAA}}{R\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{1}{}{%
-        {{hash=858934048471764c863ce6e3b93c8564}{Scherf}{S\bibinitperiod}{Helmut}{H\bibinitperiod}{}{}{}{}}%
+      \name{author}{3}{}{%
+        {{hash=060d6dc9845e6488102892f8b326c5db}{Reinert}{R\bibinitperiod}{Jürgen}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=3adc12a955021a26076d9a6c3645c425}{Brockmeyer}{B\bibinitperiod}{Ansgar}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=618fc9965068b57a4653c282aeeec70f}{De\bibnamedelima Doncker}{D\bibinitperiod\bibinitdelim D\bibinitperiod}{Rik\bibnamedelima {WAA}}{R\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
       }
-      \list{location}{1}{%
-        {München}%
-      }
-      \list{publisher}{1}{%
-        {Oldenbourg}%
-      }
-      \strng{namehash}{858934048471764c863ce6e3b93c8564}
-      \strng{fullhash}{858934048471764c863ce6e3b93c8564}
-      \field{sortinit}{S}
-      \field{sortinithash}{4125bb4c3a0eb3eaee3ea6da32eb70c8}
-      \field{labeltitle}{Modellbildung und Simulation dynamischer Systeme eine Sammlung von Simulink-Beispielen}
-      \field{title}{Modellbildung und Simulation dynamischer Systeme eine Sammlung von Simulink-Beispielen}
-      \field{year}{2010}
+      \strng{namehash}{271d9c01ce91092049ef461aa03c57b0}
+      \strng{fullhash}{271d9c01ce91092049ef461aa03c57b0}
+      \field{sortinit}{R}
+      \field{sortinithash}{ff5a3533ecf9d5a03ff60b1e1389b63d}
+      \field{labeltitle}{Calculation of losses in ferro-and ferrimagnetic materials based on the modified Steinmetz equation}
+      \field{journaltitle}{Industry Applications, {IEEE} Transactions on}
+      \field{number}{4}
+      \field{title}{Calculation of losses in ferro-and ferrimagnetic materials based on the modified Steinmetz equation}
+      \field{urlday}{31}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{37}
+      \field{year}{2001}
+      \field{pages}{1055\bibrangedash 1061}
     \endentry
     \entry{schroder2000}{book}{}
       \name{labelname}{1}{}{%
@@ -714,48 +254,64 @@
       \field{title}{Elektrische Antriebe: Grundlagen}
       \field{year}{2000}
     \endentry
-    \entry{schroder2001}{book}{}
+    \entry{slotine_applied_1991}{book}{}
       \name{labelname}{1}{}{%
-        {{hash=0b4d8fcb0667d477f50e6f20a3c1cc46}{Schröder}{S\bibinitperiod}{Dierk}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=4ae01d3e258860be2c8d83b17cf43540}{Slotine}{S\bibinitperiod}{J.-J.\bibnamedelimi E.}{J\bibinithyphendelim J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{1}{}{%
-        {{hash=0b4d8fcb0667d477f50e6f20a3c1cc46}{Schröder}{S\bibinitperiod}{Dierk}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=4ae01d3e258860be2c8d83b17cf43540}{Slotine}{S\bibinitperiod}{J.-J.\bibnamedelimi E.}{J\bibinithyphendelim J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editora}{1}{}{%
+        {{hash=56a2cc9043bd27ea8b4615a383f2b778}{Li}{L\bibinitperiod}{Weiping}{W\bibinitperiod}{}{}{}{}}%
       }
       \list{location}{1}{%
-        {Berlin [u.a.]}%
+        {Englewood Cliffs, N.J}%
       }
       \list{publisher}{1}{%
-        {Springer}%
+        {Prentice Hall}%
       }
-      \strng{namehash}{0b4d8fcb0667d477f50e6f20a3c1cc46}
-      \strng{fullhash}{0b4d8fcb0667d477f50e6f20a3c1cc46}
+      \strng{namehash}{4ae01d3e258860be2c8d83b17cf43540}
+      \strng{fullhash}{4ae01d3e258860be2c8d83b17cf43540}
       \field{sortinit}{S}
       \field{sortinithash}{4125bb4c3a0eb3eaee3ea6da32eb70c8}
-      \field{labeltitle}{Regelung von Antriebssystemen}
-      \field{title}{Regelung von Antriebssystemen}
-      \field{year}{2001}
+      \field{labeltitle}{Applied nonlinear control}
+      \field{editoratype}{collaborator}
+      \field{pagetotal}{459}
+      \field{title}{Applied nonlinear control}
+      \field{year}{1991}
+      \keyw{Nonlinear control theory}
     \endentry
-    \entry{stocker}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=b60c4428087372cf11feb4fad8277a83}{Stöcker}{S\bibinitperiod}{Horst}{H\bibinitperiod}{}{}{}{}}%
+    \entry{stumberger_evaluation_2003}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=9d6c511b5f1a6c798f2c2b7f94e908bb}{Stumberger}{S\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=e7e90597776a3ae57c883535dc9fc396}{Stumberger}{S\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=b0513fba85ab7f0720e0aaa3464efea3}{Dolinar}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=5071721d778029d9d935ccf75b41fb35}{Hamler}{H\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=36bf12c770a9cdc3d7250b5b372901fb}{Trlep}{T\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{1}{}{%
-        {{hash=b60c4428087372cf11feb4fad8277a83}{Stöcker}{S\bibinitperiod}{Horst}{H\bibinitperiod}{}{}{}{}}%
+      \name{author}{5}{}{%
+        {{hash=9d6c511b5f1a6c798f2c2b7f94e908bb}{Stumberger}{S\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=e7e90597776a3ae57c883535dc9fc396}{Stumberger}{S\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=b0513fba85ab7f0720e0aaa3464efea3}{Dolinar}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=5071721d778029d9d935ccf75b41fb35}{Hamler}{H\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=36bf12c770a9cdc3d7250b5b372901fb}{Trlep}{T\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
       }
-      \list{location}{1}{%
-        {Frankfurt am Main}%
-      }
-      \list{publisher}{1}{%
-        {Verlag Harri Deutsch}%
-      }
-      \strng{namehash}{b60c4428087372cf11feb4fad8277a83}
-      \strng{fullhash}{b60c4428087372cf11feb4fad8277a83}
+      \strng{namehash}{11c318a0caa9d58f8e557aa979e15f88}
+      \strng{fullhash}{88a34bba7b67bd153fb58fcc1fda35eb}
       \field{sortinit}{S}
       \field{sortinithash}{4125bb4c3a0eb3eaee3ea6da32eb70c8}
-      \field{labeltitle}{Taschenbuch der Physik}
-      \field{edition}{6}
-      \field{title}{Taschenbuch der Physik}
-      \field{year}{2010}
+      \field{labeltitle}{Evaluation of saturation and cross-magnetization effects in interior permanent-magnet synchronous motor}
+      \field{journaltitle}{{IEEE} Transactions on Industry Applications}
+      \field{langid}{english}
+      \field{month}{09}
+      \field{number}{5}
+      \field{title}{Evaluation of saturation and cross-magnetization effects in interior permanent-magnet synchronous motor}
+      \field{urlday}{31}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{39}
+      \field{year}{2003}
+      \field{pages}{1264\bibrangedash 1271}
     \endentry
     \entry{sturmberger}{article}{}
       \name{labelname}{5}{}{%
@@ -783,46 +339,6 @@
       \field{year}{2003}
       \field{pages}{1264\bibrangedash 1271}
     \endentry
-    \entry{ternes2012}{inproceedings}{}
-      \name{labelname}{1}{}{%
-        {{hash=1068f64d0d3ba9fa433c2dd7ba9354d7}{Ternes}{T\bibinitperiod}{Benjamin}{B\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=1068f64d0d3ba9fa433c2dd7ba9354d7}{Ternes}{T\bibinitperiod}{Benjamin}{B\bibinitperiod}{}{}{}{}}%
-      }
-      \list{organization}{1}{%
-        {CADFEM}%
-      }
-      \strng{namehash}{1068f64d0d3ba9fa433c2dd7ba9354d7}
-      \strng{fullhash}{1068f64d0d3ba9fa433c2dd7ba9354d7}
-      \field{sortinit}{T}
-      \field{sortinithash}{9378dd666f3c24d81538df53aa99e23d}
-      \field{labeltitle}{Beitrag zur internationalen ANSYS Konferenz in Kassel -- Simulation des Synchronprozesses}
-      \field{booktitle}{Nutzung des Tools EM-Praktikum und ANSYS in den Lehrveranstaltungen der Elektrischen Maschinen}
-      \field{title}{Beitrag zur internationalen ANSYS Konferenz in Kassel -- Simulation des Synchronprozesses}
-      \field{year}{2012}
-      \field{pages}{108\bibrangedash 112}
-    \endentry
-    \entry{ternes2013}{thesis}{}
-      \name{labelname}{1}{}{%
-        {{hash=1068f64d0d3ba9fa433c2dd7ba9354d7}{Ternes}{T\bibinitperiod}{Benjamin}{B\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=1068f64d0d3ba9fa433c2dd7ba9354d7}{Ternes}{T\bibinitperiod}{Benjamin}{B\bibinitperiod}{}{}{}{}}%
-      }
-      \list{institution}{2}{%
-        {FH Dortmund, University of Applied Science}%
-        {Arts}%
-      }
-      \strng{namehash}{1068f64d0d3ba9fa433c2dd7ba9354d7}
-      \strng{fullhash}{1068f64d0d3ba9fa433c2dd7ba9354d7}
-      \field{sortinit}{T}
-      \field{sortinithash}{9378dd666f3c24d81538df53aa99e23d}
-      \field{labeltitle}{Softwaregestützte Berechnung von Stator- und Rotoroberströmen in Abhängigkeit der Drehzahl eines asynchronen Käfigläufermotors auf Basis der Oberfeldtheorie}
-      \field{title}{Softwaregestützte Berechnung von Stator- und Rotoroberströmen in Abhängigkeit der Drehzahl eines asynchronen Käfigläufermotors auf Basis der Oberfeldtheorie}
-      \field{type}{Bachelorarbeit}
-      \field{year}{2013}
-    \endentry
     \entry{ternesfeldkamp}{thesis}{}
       \name{labelname}{2}{}{%
         {{hash=1068f64d0d3ba9fa433c2dd7ba9354d7}{Ternes}{T\bibinitperiod}{Benjamin}{B\bibinitperiod}{}{}{}{}}%
@@ -844,96 +360,30 @@
       \field{type}{Projektarbeit}
       \field{year}{2014}
     \endentry
-    \entry{unbehauenI2008}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=20ff8e42b6a60752bd618ba2671cece1}{Unbehauen}{U\bibinitperiod}{Heinz}{H\bibinitperiod}{}{}{}{}}%
+    \entry{underwood_online_2010}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=3d19cf0f1ec34b85692e804bf20c6556}{Underwood}{U\bibinitperiod}{Samuel\bibnamedelima J}{S\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=3f9108e8421737b65d45aff78fbbb4c6}{Husain}{H\bibinitperiod}{Iqbal}{I\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{1}{}{%
-        {{hash=20ff8e42b6a60752bd618ba2671cece1}{Unbehauen}{U\bibinitperiod}{Heinz}{H\bibinitperiod}{}{}{}{}}%
+      \name{author}{2}{}{%
+        {{hash=3d19cf0f1ec34b85692e804bf20c6556}{Underwood}{U\bibinitperiod}{Samuel\bibnamedelima J}{S\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=3f9108e8421737b65d45aff78fbbb4c6}{Husain}{H\bibinitperiod}{Iqbal}{I\bibinitperiod}{}{}{}{}}%
       }
-      \list{location}{1}{%
-        {Wiesbaden}%
-      }
-      \list{publisher}{1}{%
-        {{Vieweg+Teubner} Verlag}%
-      }
-      \strng{namehash}{20ff8e42b6a60752bd618ba2671cece1}
-      \strng{fullhash}{20ff8e42b6a60752bd618ba2671cece1}
+      \strng{namehash}{8b1ff96c7f396394ccc6247be3c1d11b}
+      \strng{fullhash}{8b1ff96c7f396394ccc6247be3c1d11b}
       \field{sortinit}{U}
       \field{sortinithash}{311bb924dfb84a64dcdd01c5b07d40b0}
-      \field{labeltitle}{Regelungstechnik I: Klassische Verfahren zur Analyse und Synthese linearer kontinuierlicher Regelsysteme, Fuzzy-Regelsysteme}
-      \field{edition}{15}
-      \field{title}{Regelungstechnik I: Klassische Verfahren zur Analyse und Synthese linearer kontinuierlicher Regelsysteme, Fuzzy-Regelsysteme}
-      \field{year}{2008}
-    \endentry
-    \entry{unbehauenII2009}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=20ff8e42b6a60752bd618ba2671cece1}{Unbehauen}{U\bibinitperiod}{Heinz}{H\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=20ff8e42b6a60752bd618ba2671cece1}{Unbehauen}{U\bibinitperiod}{Heinz}{H\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Wiesbaden}%
-      }
-      \list{publisher}{1}{%
-        {{Vieweg+Teubner} Verlag}%
-      }
-      \strng{namehash}{20ff8e42b6a60752bd618ba2671cece1}
-      \strng{fullhash}{20ff8e42b6a60752bd618ba2671cece1}
-      \field{sortinit}{U}
-      \field{sortinithash}{311bb924dfb84a64dcdd01c5b07d40b0}
-      \field{labeltitle}{Regelungstechnik {II}}
-      \field{abstract}{In diesem zweiten Band der Regelungstechnik werden solche Analyse- und Syntheseverfahren behandelt, die bei der Realisierung moderner Regelkonzepte benötigt werden, insbesondere die Grundlagen zur Behandlung von Regelsystemen im Zustandsraum sowie Grundkenntnisse der digitalen Regelung.}
-      \field{edition}{Auflage: 9., durchges. u. korr. Aufl. 2007. 2., korr. Nachdruck 2009}
-      \field{pagetotal}{447}
-      \field{shorttitle}{Regelungstechnik {II}}
-      \field{title}{Regelungstechnik {II:} Zustandsregelungen, digitale und nichtlineare Regelsysteme}
-      \field{year}{2009}
-    \endentry
-    \entry{unbehauenIII2011}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=20ff8e42b6a60752bd618ba2671cece1}{Unbehauen}{U\bibinitperiod}{Heinz}{H\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=20ff8e42b6a60752bd618ba2671cece1}{Unbehauen}{U\bibinitperiod}{Heinz}{H\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Wiesbaden}%
-      }
-      \list{publisher}{1}{%
-        {{Vieweg+Teubner} Verlag}%
-      }
-      \strng{namehash}{20ff8e42b6a60752bd618ba2671cece1}
-      \strng{fullhash}{20ff8e42b6a60752bd618ba2671cece1}
-      \field{sortinit}{U}
-      \field{sortinithash}{311bb924dfb84a64dcdd01c5b07d40b0}
-      \field{labeltitle}{Regelungstechnik {III}}
-      \field{abstract}{Der dritte Band enthält Verfahren und Methoden, mit denen die dynamischen Systeme der Regelungstechnik sicher beherrscht werden können.}
-      \field{edition}{Auflage: 7., korr. Aufl. 2011}
-      \field{pagetotal}{616}
-      \field{shorttitle}{Regelungstechnik {III}}
-      \field{title}{Regelungstechnik {III:} Identifikation, Adaption, Optimierung}
-      \field{year}{2011}
-    \endentry
-    \entry{Bruhn2009}{thesis}{}
-      \name{labelname}{1}{}{%
-        {{hash=0865d1d9c2034607dfcf8c9059f5a450}{{Wökl-Bruhn}}{W\bibinitperiod}{Henning}{H\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=0865d1d9c2034607dfcf8c9059f5a450}{{Wökl-Bruhn}}{W\bibinitperiod}{Henning}{H\bibinitperiod}{}{}{}{}}%
-      }
-      \list{institution}{1}{%
-        {TU Carolo-Wilhelmina zu Braunschweig}%
-      }
-      \strng{namehash}{0865d1d9c2034607dfcf8c9059f5a450}
-      \strng{fullhash}{0865d1d9c2034607dfcf8c9059f5a450}
-      \field{sortinit}{W}
-      \field{sortinithash}{e560dae78a85a037c3da51c61467873a}
-      \field{labeltitle}{Synchronmaschine mit eingebetteten Magneten und neuartiger variabler Erregung für Hybridantriebe}
-      \field{title}{Synchronmaschine mit eingebetteten Magneten und neuartiger variabler Erregung für Hybridantriebe}
-      \field{type}{Dissertation}
-      \field{year}{2009}
+      \field{labeltitle}{Online Parameter Estimation and Adaptive Control of Permanent-Magnet Synchronous Machines}
+      \field{journaltitle}{{IEEE} Transactions on Industrial Electronics}
+      \field{month}{07}
+      \field{number}{7}
+      \field{title}{Online Parameter Estimation and Adaptive Control of Permanent-Magnet Synchronous Machines}
+      \field{urlday}{31}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{57}
+      \field{year}{2010}
+      \field{pages}{2435\bibrangedash 2443}
     \endentry
   \endsortlist
 \endrefsection
