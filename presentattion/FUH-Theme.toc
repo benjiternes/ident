@@ -4,6 +4,8 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {1}{Allgemeines}{3}{0}{1}
+\beamer@sectionintoc {1}{Einleitung}{3}{0}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {1}{1}{Block mit Aufz\IeC {\"a}hlungen}{6}{0}{1}
+\beamer@sectionintoc {2}{Induktivit\IeC {\"a}ten}{6}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{1}{Block mit Aufz\IeC {\"a}hlungen}{8}{0}{2}

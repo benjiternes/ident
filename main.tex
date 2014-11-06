@@ -187,6 +187,15 @@
 
 \bibliography{bibo.bib}
 
+\newcommand{\longpage}{\enlargethispage{\baselineskip}}
+\newcommand{\verylongpage}{\enlargethispage{2\baselineskip}}
+\newcommand{\shortpage}{\enlargethispage{-\baselineskip}}
+\newcommand{\veryshortpage}{\enlargethispage{-2\baselineskip}}
+
+\newcommand{\pmsm}{permanentmagneterregten Synchronmaschine}
+\newcommand{\FOR}{feldorientierte Regelung}
+\newcommand{\pwm}{Pulsweitenmodulation}
+
 \begin{document}
 
 \title{Ansätze zur Parameteridentifikation der PMSM}
@@ -270,22 +279,21 @@ PMSM, Identifikation, Induktivitäten
 % creates the second title. It will be ignored for other modes.
 \IEEEpeerreviewmaketitle
 
-\tableofcontents
+%\tableofcontents
 
 \section{Mathematisches Modell der PMSM}\label{sec:math-pmsm}
 
 Grundlegende Beschreibungen elektrischer Maschinen liefern Standardwerke, wie z.~B.\ \autocites{mullerII2008}{mullerI2005}{fischer2009}{schroder2000}.
-In der vorliegenden Arbeit sind die in der Regel verwendeten linearisierten Spannungsgleichungen mit konstanten elektrischen Parametern allerdings nicht mehr ausreichend.
+In der vorliegenden Arbeit sind die i.\ d.\ R.\ verwendeten linearisierten Spannungsgleichungen mit konstanten elektrischen Parametern allerdings nicht mehr ausreichend.
 In dieser Arbeit werden Ansätze zur Erweiterung der linearisierten Gleichungen dargestellt.
 Einige Ansätze unterteilen die absoluten Induktivitäten $L_d$ und $L_q$ in zwei Selbst- und Gegeninduktivitäten.
-Bei \autocite{sturmberger} sind dabei sowohl die Selbst- als auch die Gegeninduktivität jeweils von de Strömen $i_d$ und $i_q$ abhängig.
+Nach \textcite{sturmberger} sind dabei sowohl die Selbst- als auch die Gegeninduktivität jeweils von de Strömen $i_d$ und $i_q$ abhängig.
 In dieser Arbeit wird eine absolute Induktivität in $d-$ und $q-$Richtung verwendet.
 Dies hat den Vorteil, dass bei Vereinfachungen wieder ein lineares Gleichungssystem entsteht.
 Dabei werden allerdings die Eisenverluste nicht berücksichtigt.
-Diese sind aber notwendig, um Induktivitäten zu messen und insbesondere den ohmschen Ständerwiderstand zu identifizieren \autocite{Kellner2012}.
+Diese sind aber notwendig, um Induktivitäten zu messen und insb.\ den ohmschen Ständerwiderstand zu identifizieren \autocite{Kellner2012}.
 Alle folgenden Anpassungen des Maschinenmodells beziehen sich weiterhin nur auf das Grundwellenverhalten der Maschine.
 Eine Zusätzliche Betrachtung der Oberwelleneffekte wird innerhalb dieser Arbeit nicht weiter betrachtet.
-
 Reduziert man die Synchronmaschine auf ihre grundlegenden elektrischen Eigenschaften so ergibt sich nach Abb.~\ref{fig:synchron-grundlage}: Drei Induktivitäten im Ständerblechpacket zusammen mit dem Permanentmagneten im Läufer.
 
 \begin{figure}
@@ -295,7 +303,9 @@ Reduziert man die Synchronmaschine auf ihre grundlegenden elektrischen Eigenscha
 \caption{Graphische Veranschaulichung der verschiedenen Koordinatensysteme, ständerfest $(\alpha, \beta)$ und rotorfest $(d, q)$.}
 \end{figure}
 
-Nach \textcite{ternesfeldkamp} und Transformation in das ständerfeste $(\alpha, \beta)$-Koordinatensystem ergibt sich die Spannungsleichung im rotorfesten System zu
+\shortpage
+
+Durch Transformation in das ständerfeste $(\alpha, \beta)$-Koordinatensystem ergibt sich die Spannungsleichung im rotorfesten System zu
 
 \begin{align}
 u_d &= R_1 i_d + \frac{d}{dt}\Psi_d - \omega_{el} \Psi_q \label{eqn:ud} \\ 
@@ -305,11 +315,11 @@ u_q &= R_1 i_q + \frac{d}{dt}\Psi_q + \omega_{el} \Psi_d \label{eqn:uq}
 Allgemein lässt sich das daraus resultierende innere Drehmoment als
 
 \begin{align}
-M_i = \frac{3}{2} \underline{\Psi}^{d,q} \times \underline{i}^{d,q} \label{drehmoment}
+M_i = \frac{3}{2} (\underline{\Psi}^{d,q} \times \underline{i}^{d,q}) \label{drehmoment}
 \end{align}
 
 beschreiben.
-Dabei wird vorausgesetzt, dass die Ständerwicklung symmetrisch und dreiphasig ist, der Strombelag nach \textcite{ternesfeldkamp} sinusförmig über dem Umfang verteilt und kein Nullsystem vorliegt.
+Dabei wird vorausgesetzt, dass die Ständerwicklung symmetrisch und dreiphasig ist, der Strombelag sinusförmig über dem Umfang verteilt und kein Nullsystem vorliegt \autocite{ternesfeldkamp}.
 Das innere Drehmoment $M_i$ für eine Maschine mit $p$ Polpaaren kann nach der Berechnung des Vektorproduktes als
 
 \begin{align}
@@ -323,28 +333,28 @@ Um das System vollständig zu beschreiben fehlt noch die Bewegungsgleichung nach
 M_i - M_L = J \frac{d}{dt} \omega_{mech} \label{bewegungsgleichung}
 \end{align}
 
-Bei diesem Modell sind alle Parameter konstant, die Ableitungen der Flussverkettungen, die in Gl.~(\ref{eqn:ud}) und Gl.~(\ref{eqn:uq}) verwendet werden unkompliziert zu bestimmen.
-Aufgrund von Sättigungseffekten des Eisens sind insbesondere bei hochausgenutzten Maschinen die Induktivitäten der Synchronmaschine nicht mehr konstant, sondern vom Motorstrom abhängig \autocite{Kellner2012}.
+Bei diesem Modell sind alle Parameter konstant, die Ableitungen der Flussverkettungen, die in Gl.~(\ref{eqn:ud}) und Gl.~(\ref{eqn:uq}) verwendet werden, sind einfach zu bestimmen.
+Aufgrund von Sättigungseffekten des Eisens sind insb.\ bei hochausgenutzten Maschinen die Induktivitäten der Synchronmaschine nicht mehr konstant, sondern vom Motorstrom abhängig \autocite{Kellner2012}.
 
 \subsection{Linearisierte Gleichungen}\label{sec:lin-gleichungen}
 
-Bei dem linearisierten Modell sind definitionsgemäß \autocite{mullerII2008} keine Sättigungserscheinungen vorhanden.
+Bei dem linearisierten Modell sind definitionsgemäß keine Sättigungserscheinungen vorhanden \autocite{mullerII2008}.
 Alle elektrischen Parameter der Permanentmagneterregten Synchronmaschine und damit auch die Induktivitäten sind damit konstant.
-Aus dieser Annahme folgt nach \textcite{ternesfeldkamp}, dass sich in läuferfesten $d, q-$Komponenten
+Aus dieser Annahme folgt, dass sich in läuferfesten $d, q-$Komponenten
 
 \begin{align}
-\Psi_d &= \Psi_pm + L_d i_d \\
+\Psi_d &= \Psi_{pm} + L_d i_d \\
 \Psi_q &= L_q i_q
 \end{align}
 
-ergeben.
-Die in $d-$Achse ausgerichteten Permanentmagnete rufen eine als konstant angenommene Flussverkettung $\Psi_pm$ hervor.
-Daraus ergeben sich in Gl.~(\ref{eqn:ud}), Gl.~(\ref{eqn:uq}) und Gl.~(\ref{drehmoment}) eingesetzt~--~die Grundgleichungen des linearen Maschinenmodells
+ergeben \autocite{ternesfeldkamp}.
+Die in $d-$Achse ausgerichteten Permanentmagnete rufen eine als konstant angenommene Flussverkettung $\Psi_{pm}$ hervor.
+Daraus ergeben sich in Gl.~(\ref{eqn:ud}), Gl.~(\ref{eqn:uq}) und Gl.~(\ref{drehmoment}) eingesetzt~--~die Grundgleichungen des linearen Maschinenmodells zu
 
 \begin{align}
 u_d &= R_1 i_d + L_d \frac{di_d}{dt} - \omega_{el}L_q i_q  \label{uq-allg} \\ 
-u_q &= R_1 i_q + L_q \frac{di_q}{dt} + \omega_{el}L_d i_d + \omega_{el}\Psi_pm \label{ud-allg} \\ 
-M_i &= \frac{3p}{2}(\Psi_pm i_q + (L_d - L_q)i_d i_q)
+u_q &= R_1 i_q + L_q \frac{di_q}{dt} + \omega_{el}L_d i_d + \omega_{el}\Psi_{pm} \label{ud-allg} \\ 
+M_i &= \frac{3p}{2}(\Psi_{pm} i_q + (L_d - L_q)i_d i_q)
 \end{align}
 
 Die Spannungsgleichungen lassen sich gemäß Abb.~\ref{fig:spannungsgleichungen} graphisch darstellen.
@@ -357,7 +367,7 @@ Die Spannungsgleichungen lassen sich gemäß Abb.~\ref{fig:spannungsgleichungen}
 \end{figure}
 
 Erkennbar ist, dass in der Abb.~\ref{fig:spannungsgleichungen} die Spannungsquellen $\omega_el L_q i_q$ und $\omega_el L_d i_d$ miteinander verkoppelt sind.
-Löst man oben stehende Gl.~(\ref{uq-allg},\ref{ud-allg}) mit der Bewegungsgleichung Gl.~(\ref{bewegungsgleichung}), so erhält man in Zustandsform
+Löst man oben stehende Gl.~(\ref{uq-allg},\ref{ud-allg}) mit der Bewegungsgleichung Gl.~(\ref{bewegungsgleichung}), so ergibt sich folgendes Gleichungssystem
 
 \begin{align}
 \frac{di_d}{dt} &= -\frac{R_1}{L_d}i_d+\omega_{el}\frac{L_q}{L_d}i_q+\frac{1}{L_d}u_d \\
@@ -366,26 +376,77 @@ Löst man oben stehende Gl.~(\ref{uq-allg},\ref{ud-allg}) mit der Bewegungsgleic
 \end{align}
 
 \section{Ansätze zur Identifikation}\label{sec:identifikation}
+\subsection{Ansätze zur Berechnung der Rotorposition}\label{sec:rotorposition}
 
-Um die Parameter einer PMSM identifizieren zu können, ist es notwendig die korrekte Lage des Rotors festzustellen \autocites{underwood_online_2010}{rahman_identification_2005}{piippo_adaptation_2009}.
+Um die Parameter einer \pmsm identifizieren zu können, ist es notwendig die korrekte Lage des Rotors zu ermitteln \autocites{underwood_online_2010}{rahman_identification_2005}{piippo_adaptation_2009}.
 Mit Hilfe eines Resolvers, Inkrementalgeber oder einen Absolutwertgeber wird die Rotorlage ermittelt.
 Die Implementierung solcher Messeinrichtungen ist mit Kosten und Wartungsaufwand verbunden und nicht immer nachrüstbar.
 An dieser Stelle soll deshalb auf eine geberlose Regelung eingegangen werden.
 Wie die Bezeichnung schon nahelegt, wird bei der geberlosen Regelung auf den Drehgeber verzichtet.
-Bei einer geberlosen Regelung werden i.\ d.\ R.\ aus den drei Phasenströmen der Läuferlagewinkel berechnet, wobei von den drei Phasenströmen nur zwei gemessen werden und der dritte wird aus ihnen berechnet \autocite{slotine_applied_1991}.
+Bei einer geberlosen Regelung werden i.\ d.\ R.\ aus den drei Phasenströmen der Läuferlagewinkel $\epsilon_{RS}$ berechnet, wobei von den drei Phasenströmen nur zwei gemessen werden und der dritte wird aus ihnen berechnet \autocite{ternesfeldkamp}.
 Es gibt unzählige Veröffentlichungen in diesem Forschungsbereich, dabei werden auch unterschiedliche Verfahren zur Realisierung dargestellt.
-Im folgenden soll aber auf eine Unterscheidung und den Vergleich unterschiedlicher Implementierungsvarianten nicht eingegangen werden.
+
+\subsubsection{Klassifizierung der Methoden}
+Ausgehend vom Maschinen Modell der \pmsm (s.~h.~Abschnit.~\ref{sec:math-pmsm}), wird an dieser Stelle eine Klassifizierung der Methoden vorgenommen.
+
+\begin{itemize}
+	\item Methoden basierend auf dem Grundwellenmodell der Maschine
+	\item Methoden basierend auf den Anisotropien der Maschine
+\end{itemize}
+
+Die Methoden \enquote{basierend auf dem Grundwellenmodell} nutzen die im Grundwellenmodell betrachteten induzierten Spannungen zur indirekten Bestimmung der Rotorposition \autocite{Perassi2006}.
+Dabei werden die Grundschwingungsgrößen der Ständerspannung $U_{1}$ und der Ständerstroms $I_{1}$ als Eingangssignale des Modells betrachtet.
+Da eine Strommessung bei geregelten Antrieben mit Frequenzumrichter i.\ d.\ R.\ ohnehin vorhanden ist, wird keine zusätzliche Messeineinrichtung benötigt.
+Die Ausgangsspannung wird dann über die Pulsweitenmodulation gemessen, dabei muss die Nichtlinearität des Wechselrichters betrachtet werden.
+Bei der Bestimmung der Rotorposition im Stillstand kann dieses Verfahren keine Ergebnisse liefern, ebenso ist es schwierig bei niedrigen Drehzahlen die Ausgangsspannung am Wechselrichter zu messen.
+Dieses Verfahren ist nur für eine Beschränkung des Drehzahlbereichs anwendbar.
+
+Andere Verfahren zur Rotorbestimmung sind u.\ a.\ sehr theoretische Verfahren, wie z.\ B.\ Zustandsbeobachter oder Kalmanfilter.
+Diese Verfahren sind nach aktuellen Stand nicht Industrie tauglich \autocite{Perassi2006}.
+Im Weiteren wird zwischen zwei Verfahren unterschieden:
+
+\begin{itemize}
+\item Passive Verfahren, bei denen die Bestimmung erfolgt, ohne die für die \FOR normale \pwm zu beeinflussen
+\item Aktive Verfahren, bei denen Umrichterzustände oder Testsignale eingefügt werden, um die Effekte der induzierten Spannung zu verdeutlichen
+\end{itemize}
+
+Methoden basierend auf den Anisotropien der Maschine sollen im weiteren nicht behandelt werden, hierfür wird auf einschlägige Literatur verwiesen \autocites{Perassi2006}{kiel2005}.
+In \textcite{kiel2005} werden auch die Effekte, die zur Änderung der Induktivität mit der Rotorlage führen erörtert.
+Im Rahmen einer geberlosen Regelung ist es enorm wichtig, dass die absoluten und differentiellen Induktivitäten bekannt sind (s.~h.~Abschn.~\ref{sec:induktiv}).
+
+\subsection{Induktivitäten}\label{sec:induktiv}
+
+Innerhalb der \FOR werden die absoluten Induktivitäten z.\ B.\ für die Berechnung des Spannungssollwertmodells, also der Vorsteuerung, benötigt.
+Auch bei den Ansätzen der Ständeridentifikation werden die Induktivitäten benötigt (s.~h.~Abschn.~\ref{sec:stator-ident}).
+Da für die praktische Anwendung vor allem die Parameter in rotorfesten Koordinaten von Belang sind, beschränken sich auch die Darstellung der Induktivitäten in diesem Abschnitt auf das rotorfeste Koordinatensystem.
+Die Identifikation der Induktivitäten wird ausschließlich offline durchgeführt \autocite{Kellner2012}.
+Dafür gibt es nach \textcite{Kellner2012} zwei Gründe:
+
+\begin{quote}
+\enquote{Zum einen ändern sich die Induktivitäten im Wesentlichen nur abhängig von den Strömen $i_d$ und $i_q$, kaum aufgrund von anderen äußeren Umgebungseinflüssen beziehungsweise Prüfstandsparametern, wie zum Beispiel Temperatur oder Drehzahl des Systems \autocite[S.~79]{Kellner2012}.}
+\end{quote}
+
+Eine Onlinemessung ist nicht erforderlich~--~im Gegensatz zur Ständerwiderstandsidentifikation.
+Onlinemessverfahren sind entweder gar keinen richtigen \enquote{online}-Verfahren oder haben eine zweifelhafte Stabilität und Genauigkeit \autocite{underwood_online_2010}.
+Bei den Darstellungen der Induktivitäten unterscheidet man zwischen \emph{absoluten Induktivitäten, Sekanteninduktivitäten} $L = \frac{\Psi}{i}$ und \emph{differentiellen Induktivitäten} $L = \frac{d\Psi}{di}$, welche die Steigung der Tangente angibt..
+
+\begin{figure}
+%\centering
+\includegraphics[width=\columnwidth]{img/induktiv}
+\label{fig:induktiv}
+\caption{Prinzipielle Darstellung der Beziehung zwischen absoluter und differentieller Induktivität.}
+\end{figure}
 
 %\emph{Testsignale für niedrige Drehzahlen:}
 
-\emph{EMK-Verfahren für hohe Drehzahlen:} Im Gegensatz zu dem beschriebenen Testsignalverfahren, welches aktiv in das Antriebssystem eingreift, ergeben sich bei hohen Drehzahlen genügend passive Verfahren zur Bestimmung der Rotorlage.
+%\emph{EMK-Verfahren für hohe Drehzahlen:} Im Gegensatz zu dem beschriebenen Testsignalverfahren, welches aktiv in das Antriebssystem eingreift, ergeben sich bei hohen %Drehzahlen genügend passive Verfahren zur Bestimmung der Rotorlage.
 
-\begin{quote}
-\enquote{[\ldots] Eine Drehzahl ist immer dann für das EMK-Verfahren ausreichend, wenn die angelegten Spannungen so groß sind, dass der Rauschanteil auf den gemessenen oder berechneten Spannungen vernachlässigbar klein ist. [\ldots] \autocite[S.~48]{Kellner2012}}
-\end{quote}
+%\begin{quote}
+%\enquote{[\ldots] Eine Drehzahl ist immer dann für das EMK-Verfahren ausreichend, wenn die angelegten Spannungen so groß sind, dass der Rauschanteil auf den gemessenen oder %berechneten Spannungen vernachlässigbar klein ist. [\ldots] \autocite[S.~48]{Kellner2012}}
+%\end{quote}
 
-Basis für solche EMK-Modelle sind die in Abschn.~\ref{sec:lin-gleichungen} beschriebenen Gleichungen.
-Dabei wird von einem linearen Verhalten im Betriebsbereich ausgegangen \autocite{piippo_adaptation_2009}.
+%Basis für solche EMK-Modelle sind die in Abschn.~\ref{sec:lin-gleichungen} beschriebenen Gleichungen.
+%Dabei wird von einem linearen Verhalten im Betriebsbereich ausgegangen \autocite{piippo_adaptation_2009}.
 
 \subsection{Berücksichtigung der Eisenverluste}\label{sec:eisenverluste}
 
@@ -393,10 +454,10 @@ Bisher wurden in den beschriebene Gleichungen nur die ohmschen Verluste betracht
 Seit Anfang des 20. Jahrhunderts ist jedoch bekannt, dass neben den ohmschen Verlusten im Kupfer des Ständers weitere Verluste in den elektrischen Maschinen auftreten \autocites{reinert_calculation_2001}{stumberger_evaluation_2003}{kilthau_parameter-measurement_2001}{sturmberger}.
 Diese Verluste werden als \enquote{Eisenverluste} zusammengefasst und beinhalten Wirbelstromverluste durch Läufer- und Ständerblechpacket.
 Außerdem treten auch Hystereseverluste auf, die durch die Ummagnetisierung des Eisenblechs bedingt sind.
-Hier wird auf weiterführende Literatur empfohlen, s.~h. \textcites{reinert_calculation_2001}{stumberger_evaluation_2003}{kilthau_parameter-measurement_2001}{sturmberger}.
+%Hier wird auf Veröffentlichungen empfohlen, s.~h. \textcites{reinert_calculation_2001}{stumberger_evaluation_2003}{kilthau_parameter-measurement_2001}{sturmberger}.
 Eine gesonderte Untersuchung dieser beiden Effekte ist allerdings nicht sinnvoll, da Wirbelstrom- und Hystereseverluste den gleichen physikalischen Effekt beschreiben \autocite{reinert_calculation_2001}.
 Eine getrennte Messung ist in der Praxis schwer zu realisieren.
-Zu den Eisenverlusten kommen noch einige parasitäre Effekte, wie Ständerverluste, durch eine nichtsinusförmige Speisung der Motoren, insb. durch Pulsumrichter \autocite{Kellner2012}.
+Zu den Eisenverlusten kommen noch einige parasitäre Effekte, wie Ständerverluste, durch eine nichtsinusförmige Speisung der Motoren, insb.\ durch Pulsumrichter \autocite{Kellner2012}.
 Auf dem Forschungsgebiet besteht noch große Uneinigkeit, so schreibt \textcite{Kellner2012} in seiner Dissertation
 
 \begin{quote}
@@ -409,11 +470,11 @@ Eisenverluste gelungen. \autocite[S.~65]{Kellner2012}}
 Für die Identifikation der Eisenverluste bietet es sich an, die Maschine mit einem Teststrom zu speisen.
 Dafür muss zwingend eine Vorschrift für die Beschreibung der Eisenverluste eingeführt werden, s.~h. \autocite[S.~75]{Kellner2012}.
 
-\subsection{Identifikation des Stränderwiderstands}\label{sec:sident}
+\subsection{Identifikation des Stränderwiderstands}\label{sec:stator-ident}
 
 Der Ständerwiderstand $R_1$ ist eine wichtige Kenngröße für den Betrieb elektrischer Maschinen.
-Bei dem modellbasierten EMK-Verfahren für kleine Drehzahlen, z. B. \autocite{genduso}, ist es notwendig eine möglichst genauen Ständerwiderstand zu bekommen.
-Im folgenden werde einige Beispiele zur Identifikation des Ständerwiderstandes anhand aktueller Literatur dargestellt.
+Bei dem modellbasierten EMK-Verfahren für kleine Drehzahlen, z.\ B.\ \autocite{genduso}, ist es notwendig eine möglichst genaue Identifikation des Ständerwiderstandes zu bekommen.
+Im folgenden werde einige Beispiele zur Identifikation des Ständerwiderstandes anhand aktueller Veröffentlichungen dargestellt.
 
 Die Auswertung der $u_d-$ oder $u_q-$Spannungsgleichung: Zur Auswertung der $u_d$-Gleichung ist ein $d-$Strom ungleich null Voraussetzung, was die praktische Anwendung stark einschränkt \autocite{Kellner2012}.
 Die Auswertung der $u_q-$Gleichung liefert immer dann gute Ergebnisse, wenn gleichzeitig hohe $i_d-$Ströme und kleine Drehzahlen vorhanden sind.
@@ -431,10 +492,10 @@ Der prinzipielle Aufbau ist in Abb.~\ref{fig:synchron-grundlage} gezeigt.
 
 Wenn bekannt ist, welchen Verlauf die Ausgangsgröße der Strecke bei einer bestimmten Eingangsgröße haben soll, dann kann diese mathematische Beziehung in einem Referenzmodell hinterlegt werden.
 Der Algorithmus ist in \autocite{slotine_applied_1991} genauer beschrieben (s.~h.~Abb.~\ref{fig:mrac}).
-Bei der Parameteridentifikation kann das mathematische Referenzmodell die Gleichungen der PMSM beschreiben, der Regler passt über den Ständerwiderstand die unbekannte Strecke an, bis sie den idealen Maschinengleichungen entsprechen.
+Bei der Parameteridentifikation kann das mathematische Referenzmodell die Gleichungen der \pmsm beschreiben, der Regler passt über den Ständerwiderstand die unbekannte Strecke an, bis sie den idealen Maschinengleichungen entsprechen.
 Sind die Parameter der Maschine nicht genau bekannt, dann ist es nicht möglich ein genaues Referenzmodell zu erstellen.
 Eine andere Möglichkeit zur Identifikation des Ständerwiderstandes ist die Einprägung von Testsignalen in $d-$ und $q-$Richtung.
-Die Auswertung der eingeprägten Signale liefert dann die Spannungs- bzw. Stromantwort.
+Die Auswertung der eingeprägten Signale liefert dann die Spannungs- bzw.\ Stromantwort.
 In: Wilson, S. D.; Jewell, G. W.; Stewart, P. G.: \emph{Resistance estimation for temperature determination in PMSMs through signal injection}. In: \emph{International Conferece on Eletric Maschines and Drives},(IEMDC)~--~(2005), pp. 735--740, wird eine Methode beschrieben, mit der durch Injektion eines Stromraumzeigers der Widerstand und damit auch die Temperatur der Ständerwicklung bestimmt wird.
 Das Verfahren zur Bestimmung dieser Maschinen Parameter wurde bisher nur simuliert und nicht verifiziert.
 Der entscheidende Nachteil dieses Prinzips ist, dass auch die Ständeridentifikation nur funktioniert, wenn das hochfrequente Testsignal vorhanden ist, also nur bei geringen Drehzahlen.
@@ -443,7 +504,7 @@ of a synchronous motor and variable speed drive using such a method} und Schutzr
 Wechselstrommotors} beschrieben.
 Weitere Ansätze zur Identifikation des Ständerwiderstandes sind in \textcite{Kellner2012} beschrieben, diese Verfahren benötigen keine Testsignale und werten die bekannten Spannungsgleichungen in $d-$ oder in $q-$Richtung in rotorfesten Koordinaten aus.
 Diese Möglichkeit gilt nicht für alle Betriebsbereiche. 
-Aus diesem Grund wird ein weiteres Verfahren eingeführt, welches robust und resourcenschonend ist.
+Aus diesem Grund wird ein weiteres Verfahren eingeführt, welches robust und resourcen schonender ist.
 Durch die Injektion eines niederfrequenten $i_d$-Strom-Testsignales kann die $u_d$-Spannungsgleichung ausgewertet werden.
 
 \begin{figure}
@@ -470,7 +531,7 @@ R_{1,ident} = \frac{1}{i_d''-i_d'} \cdot \left( u_d'' - u_d' + \omega_{el}'' L_q
 \subsection{Identifikation der Flussverkettung}\label{sec:ident-fluss}
 
 Für die Identifikation der Flussverkettung $\Psi_{pm}$ kann das gleiche Testsignale in $d-$Richtung verwendet werden, wie bei der Identifikation des Ständerwiderstandes.
-Bei der Identifikation des Flusses werden nur stationäre Zustände betrachtet \autocite{Kellner2012}, daher können die Ableitungen der Ströme weggelassen werden, da sie im Mittel ohnehin null ergeben.
+Bei der Identifikation des Flusses werden nur stationäre Zustände betrachtet, daher können die Ableitungen der Ströme weggelassen werden, da sie im Mittel ohnehin null ergeben \autocite{Kellner2012}.
 Für die Identifikation des Flusses wird die $u_q-$Gleichung (s.~h.~Gl.~\ref{uq-allg}) verwendet.
 Da der Teststrom nur in $d-$Richtung eingeprägt wird, kann $i_q$ als konstant angenommen werden.
 Das Gleiche gilt für $\psi_{pm}$.
@@ -492,7 +553,7 @@ Je größer der Fehler ist, desto weniger bilden die Modelle die Realität ab.
 Damit wird die Regeldynamik direkt verringert.
 Ziel muss es also sein, die elektrischen Parameter~--~bei einer PMSM im wesentlichen der ohmsche Ständerwiderstand, der Permanentfluss und die Induktivitäten~--~möglichst exakt messbar sein.
 
-Die Parameter $R_{1}, L$ und $Psi_{pm}$ können nicht direkt gemessen werden, sondern werden aus anderen gemessenen Größen berechnet.
+Die Parameter $R_{1}, L_{d,q}$ und $\Psi_{pm}$ können nicht direkt gemessen werden, sondern werden aus anderen gemessenen Größen berechnet.
 Die resultierenden Probleme wirken sich auf die Drehmomentenberechnung und die Lagewinkelberechnung bei geberloser Regelung aus.
 Beispiele für Fehler der Messgrößen sind Ungenauigkeiten der Umrichterlinearisierung oder Toleranzen der Stromsensoren.
 
@@ -602,8 +663,8 @@ Beispiele für Fehler der Messgrößen sind Ungenauigkeiten der Umrichterlineari
 %\blindtext
 
 % use section* for acknowledgement
-\section*{Danksagung}
-An dieser Stelle möchten wir allen beteiligten für dieses tolle Projekt danken. Dabei wollen wir die besonders gute Betreuung während der Projekte loben. Vielen Dank an Herrn Prof. Dr.-Ing. Arno Bergman, M. Sc. M. Hellwig, Prof. Dr.-Ing. Schugt.
+%\section*{Danksagung}
+
 
 % Can use something like this to put references on a page
 % by themselves when using endfloat and the captionsoff option.

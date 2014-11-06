@@ -58,6 +58,15 @@ Benjamin Ternes
 \institute{%
 Fachbereich Elektrotechnik und Informatik}
 
+\AtBeginSection[]{%
+  \begin{frame}[plain] %<beamer>
+    \frametitle{Agenda}
+    \tableofcontents[currentsection]
+     % \tableofcontents[sectionstyle=show/hide,subsectionstyle=hide/show/hide]
+  \end{frame}
+  % \addtocounter{framenumber}{-1}% If you don't want them to affect the slide number
+}
+
 \begin{document}
 
 \begin{frame}[plain]

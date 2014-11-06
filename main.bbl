@@ -84,6 +84,29 @@
       \field{type}{Dissertation}
       \field{year}{2012}
     \endentry
+    \entry{kiel2005}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=855439ac517ce8de5f1cde3c0ecb7bef}{Kiel}{K\bibinitperiod}{Jürgen}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=855439ac517ce8de5f1cde3c0ecb7bef}{Kiel}{K\bibinitperiod}{Jürgen}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {s.l.}%
+      }
+      \list{publisher}{1}{%
+        {Cuvillier, E}%
+      }
+      \strng{namehash}{855439ac517ce8de5f1cde3c0ecb7bef}
+      \strng{fullhash}{855439ac517ce8de5f1cde3c0ecb7bef}
+      \field{sortinit}{K}
+      \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
+      \field{labeltitle}{Regelung permanenterregter Synchronmaschinen ohne mechanischen Geber für den industriellen Einsatz}
+      \field{edition}{Auflage: 1., Aufl.}
+      \field{pagetotal}{114}
+      \field{title}{Regelung permanenterregter Synchronmaschinen ohne mechanischen Geber für den industriellen Einsatz}
+      \field{year}{2005}
+    \endentry
     \entry{kilthau_parameter-measurement_2001}{inproceedings}{}
       \name{labelname}{2}{}{%
         {{hash=1b4260281b429dac07e0c0268b811587}{Kilthau}{K\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
@@ -155,6 +178,25 @@
       \field{labeltitle}{Berechnung elektrischer Maschinen}
       \field{title}{Berechnung elektrischer Maschinen}
       \field{year}{2008}
+    \endentry
+    \entry{Perassi2006}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=e8d86faf3290cfee086f739f4d839357}{Perassi}{P\bibinitperiod}{Hector}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e8d86faf3290cfee086f739f4d839357}{Perassi}{P\bibinitperiod}{Hector}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {TU Ilmenau}%
+      }
+      \strng{namehash}{e8d86faf3290cfee086f739f4d839357}
+      \strng{fullhash}{e8d86faf3290cfee086f739f4d839357}
+      \field{sortinit}{P}
+      \field{sortinithash}{b8af9282ac256b81613dc9012a0ac921}
+      \field{labeltitle}{Feldorientierte Regelung der permanenterregten Synchronmaschine ohne Lagegeber für den gesamten Drehzahlbereich bis zum Stillstand}
+      \field{title}{Feldorientierte Regelung der permanenterregten Synchronmaschine ohne Lagegeber für den gesamten Drehzahlbereich bis zum Stillstand}
+      \field{type}{Dissertation}
+      \field{year}{2006}
     \endentry
     \entry{piippo_adaptation_2009}{article}{}
       \name{labelname}{3}{}{%
