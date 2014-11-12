@@ -81,11 +81,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>10</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>10</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -117,7 +117,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortlocale</bcf:key>
-      <bcf:value>english</bcf:value>
+      <bcf:value>ngerman</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortscheme</bcf:key>
@@ -1971,9 +1971,45 @@
     <bcf:datasource type="file" datatype="bibtex">bibo.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">kellner2012</bcf:citekey>
-    <bcf:citekey order="2">voss2012</bcf:citekey>
-    <bcf:citekey order="0">*</bcf:citekey>
+    <bcf:citekey order="1">ternes2012</bcf:citekey>
+    <bcf:citekey order="2">mullerII2008</bcf:citekey>
+    <bcf:citekey order="3">schroder2001</bcf:citekey>
+    <bcf:citekey order="4">schroder2001</bcf:citekey>
+    <bcf:citekey order="5">mullerII2008</bcf:citekey>
+    <bcf:citekey order="6">schroder2001</bcf:citekey>
+    <bcf:citekey order="7">schroder2001</bcf:citekey>
+    <bcf:citekey order="8">mullerII2008</bcf:citekey>
+    <bcf:citekey order="9">schroder2001</bcf:citekey>
+    <bcf:citekey order="10">schroder2001</bcf:citekey>
+    <bcf:citekey order="11">mullerII2008</bcf:citekey>
+    <bcf:citekey order="12">schroder2001</bcf:citekey>
+    <bcf:citekey order="13">schroder2001</bcf:citekey>
+    <bcf:citekey order="14">schroder2001</bcf:citekey>
+    <bcf:citekey order="15">Kellner2012</bcf:citekey>
+    <bcf:citekey order="16">Kellner2012</bcf:citekey>
+    <bcf:citekey order="17">Kellner2012</bcf:citekey>
+    <bcf:citekey order="18">Kellner2012</bcf:citekey>
+    <bcf:citekey order="19">Kellner2012</bcf:citekey>
+    <bcf:citekey order="20">Kellner2012</bcf:citekey>
+    <bcf:citekey order="21">stumberger_evaluation_2003</bcf:citekey>
+    <bcf:citekey order="22">stumberger_evaluation_2003</bcf:citekey>
+    <bcf:citekey order="23">stumberger_evaluation_2003</bcf:citekey>
+    <bcf:citekey order="24">stumberger_evaluation_2003</bcf:citekey>
+    <bcf:citekey order="25">stumberger_evaluation_2003</bcf:citekey>
+    <bcf:citekey order="26">stumberger_evaluation_2003</bcf:citekey>
+    <bcf:citekey order="27">stumberger_evaluation_2003</bcf:citekey>
+    <bcf:citekey order="28">stumberger_evaluation_2003</bcf:citekey>
+    <bcf:citekey order="29">Kellner2012</bcf:citekey>
+    <bcf:citekey order="30">Kellner2012</bcf:citekey>
+    <bcf:citekey order="31">Kellner2012</bcf:citekey>
+    <bcf:citekey order="32">Kellner2012</bcf:citekey>
+    <bcf:citekey order="33">Kellner2012</bcf:citekey>
+    <bcf:citekey order="34">Kellner2012</bcf:citekey>
+    <bcf:citekey order="35">Kellner2012</bcf:citekey>
+    <bcf:citekey order="36">Kellner2012</bcf:citekey>
+    <bcf:citekey order="37">Kellner2012</bcf:citekey>
+    <bcf:citekey order="38">underwood_online_2010</bcf:citekey>
+    <bcf:citekey order="39">underwood_online_2010</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="anyt" type="entry" sortscheme="anyt">
   <bcf:sorting>

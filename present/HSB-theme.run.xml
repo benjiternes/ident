@@ -41,13 +41,13 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>FUH-Theme.bcf</file>
+      <file>HSB-theme.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>FUH-Theme.bbl</file>
+      <file>HSB-theme.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -57,26 +57,27 @@
       <file>standard.bbx</file>
       <file>authoryear.cbx</file>
       <file>biblatex.cfg</file>
-      <file>english.lbx</file>
+      <file>ngerman.lbx</file>
+      <file>german.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
+  <external package="biblatex" priority="5" active="0">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>FUH-Theme</infile>
+      <infile>HSB-theme</infile>
     </cmdline>
     <input>
-      <file>FUH-Theme.bcf</file>
+      <file>HSB-theme.bcf</file>
     </input>
     <output>
-      <file>FUH-Theme.bbl</file>
+      <file>HSB-theme.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>FUH-Theme.bbl</file>
+      <file>HSB-theme.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>FUH-Theme.bcf</file>
+      <file>HSB-theme.bcf</file>
     </requires>
     <requires type="editable">
       <file>bibo.bib</file>

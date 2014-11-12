@@ -1,0 +1,21 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@endinputifotherversion {3.33pt}
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Einleitung}{4}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Mathematisches Modell einer PMSM}{11}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{1}{Linearisierte Gleichungen}{13}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{2}{Allgemeine Gleichungen}{19}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Ans\IeC {\"a}tze zur Identifikation}{38}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{1}{Bestimmung der Rotorlage}{42}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{2}{Ans\IeC {\"a}tze zur Identifikation der Induktivit\IeC {\"a}ten, St\IeC {\"a}nderwiderstand und Flussverkettung}{46}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Parameterfehler}{50}{0}{4}

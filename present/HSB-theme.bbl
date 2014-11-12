@@ -1,0 +1,181 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.4 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{anyt}{anyt}
+    \entry{Kellner2012}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=356fe0e0a2ff56772bbccf9222ecb942}{Kellner}{K\bibinitperiod}{S.\bibnamedelimi L.}{S\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=356fe0e0a2ff56772bbccf9222ecb942}{Kellner}{K\bibinitperiod}{S.\bibnamedelimi L.}{S\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {TU Erlangen-Nürnberg}%
+      }
+      \strng{namehash}{356fe0e0a2ff56772bbccf9222ecb942}
+      \strng{fullhash}{356fe0e0a2ff56772bbccf9222ecb942}
+      \field{sortinit}{K}
+      \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Parameteridentifikation bei permanenterregten Synchronmaschinen}
+      \field{title}{Parameteridentifikation bei permanenterregten Synchronmaschinen}
+      \field{type}{Dissertation}
+      \field{year}{2012}
+    \endentry
+    \entry{mullerII2008}{book}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=b96a16c5aca4657ae3aa14620015d81e}{Müller}{M\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b25a74baaca6f4581443a35dcafbd998}{Vogt}{V\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=81705654e5fa75d3ead8b114372ebd42}{Ponick}{P\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=b96a16c5aca4657ae3aa14620015d81e}{Müller}{M\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b25a74baaca6f4581443a35dcafbd998}{Vogt}{V\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=81705654e5fa75d3ead8b114372ebd42}{Ponick}{P\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Weinheim}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-{VCH-Verl.}}%
+      }
+      \strng{namehash}{004db0ee5573552708b1922e063cb3bf}
+      \strng{fullhash}{004db0ee5573552708b1922e063cb3bf}
+      \field{sortinit}{M}
+      \field{sortinithash}{4203d16473bc940d4ac780773cb7c5dd}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Berechnung elektrischer Maschinen}
+      \field{title}{Berechnung elektrischer Maschinen}
+      \field{year}{2008}
+    \endentry
+    \entry{schroder2001}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=aa4ab27f180361f64b9fcc3f540ee994}{Schröder}{S\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=aa4ab27f180361f64b9fcc3f540ee994}{Schröder}{S\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berlin [u.a.]}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{aa4ab27f180361f64b9fcc3f540ee994}
+      \strng{fullhash}{aa4ab27f180361f64b9fcc3f540ee994}
+      \field{sortinit}{S}
+      \field{sortinithash}{4125bb4c3a0eb3eaee3ea6da32eb70c8}
+      \field{labelyear}{2001}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Regelung von Antriebssystemen}
+      \field{title}{Regelung von Antriebssystemen}
+      \field{year}{2001}
+    \endentry
+    \entry{stumberger_evaluation_2003}{article}{}
+      \name{labelname}{5}{}{%
+        {{uniquename=0,hash=9d6c511b5f1a6c798f2c2b7f94e908bb}{Stumberger}{S\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e7e90597776a3ae57c883535dc9fc396}{Stumberger}{S\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b0513fba85ab7f0720e0aaa3464efea3}{Dolinar}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5071721d778029d9d935ccf75b41fb35}{Hamler}{H\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=36bf12c770a9cdc3d7250b5b372901fb}{Trlep}{T\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=9d6c511b5f1a6c798f2c2b7f94e908bb}{Stumberger}{S\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e7e90597776a3ae57c883535dc9fc396}{Stumberger}{S\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b0513fba85ab7f0720e0aaa3464efea3}{Dolinar}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5071721d778029d9d935ccf75b41fb35}{Hamler}{H\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=36bf12c770a9cdc3d7250b5b372901fb}{Trlep}{T\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{11c318a0caa9d58f8e557aa979e15f88}
+      \strng{fullhash}{88a34bba7b67bd153fb58fcc1fda35eb}
+      \field{sortinit}{S}
+      \field{sortinithash}{4125bb4c3a0eb3eaee3ea6da32eb70c8}
+      \field{labelyear}{2003}
+      \field{labelmonth}{09}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Evaluation of saturation and cross-magnetization effects in interior permanent-magnet synchronous motor}
+      \field{journaltitle}{{IEEE} Transactions on Industry Applications}
+      \field{langid}{english}
+      \field{month}{09}
+      \field{number}{5}
+      \field{title}{Evaluation of saturation and cross-magnetization effects in interior permanent-magnet synchronous motor}
+      \field{urlday}{31}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{39}
+      \field{year}{2003}
+      \field{pages}{1264\bibrangedash 1271}
+    \endentry
+    \entry{ternes2012}{inproceedings}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=098301a5c7a6886b8c936e3020183788}{Ternes}{T\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=098301a5c7a6886b8c936e3020183788}{Ternes}{T\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {CADFEM}%
+      }
+      \strng{namehash}{098301a5c7a6886b8c936e3020183788}
+      \strng{fullhash}{098301a5c7a6886b8c936e3020183788}
+      \field{sortinit}{T}
+      \field{sortinithash}{9378dd666f3c24d81538df53aa99e23d}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Beitrag zur internationalen ANSYS Konferenz in Kassel~--~Simulation des Synchronprozesses}
+      \field{booktitle}{Nutzung des Tools EM-Praktikum und ANSYS in den Lehrveranstaltungen der Elektrischen Maschinen}
+      \field{title}{Beitrag zur internationalen ANSYS Konferenz in Kassel~--~Simulation des Synchronprozesses}
+      \field{year}{2012}
+      \field{pages}{108\bibrangedash 112}
+    \endentry
+    \entry{underwood_online_2010}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=156ea0c45c92a512579243beb085f924}{Underwood}{U\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8705aa287d837708de35b5098d0ef010}{Husain}{H\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=156ea0c45c92a512579243beb085f924}{Underwood}{U\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8705aa287d837708de35b5098d0ef010}{Husain}{H\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{3caa837b102340985bd8c35d7e9a0f2b}
+      \strng{fullhash}{3caa837b102340985bd8c35d7e9a0f2b}
+      \field{sortinit}{U}
+      \field{sortinithash}{311bb924dfb84a64dcdd01c5b07d40b0}
+      \field{labelyear}{2010}
+      \field{labelmonth}{07}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Online Parameter Estimation and Adaptive Control of Permanent-Magnet Synchronous Machines}
+      \field{journaltitle}{{IEEE} Transactions on Industrial Electronics}
+      \field{month}{07}
+      \field{number}{7}
+      \field{title}{Online Parameter Estimation and Adaptive Control of Permanent-Magnet Synchronous Machines}
+      \field{urlday}{31}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{57}
+      \field{year}{2010}
+      \field{pages}{2435\bibrangedash 2443}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
