@@ -1,15 +1,15 @@
 [0] Config.pm:320> INFO - This is Biber 1.9
 [0] Config.pm:323> INFO - Logfile is 'HSB-theme.blg'
-[29] biber-MSWIN:274> INFO - === %a %b %e, %Y, %H:%M:%S
-[29] Biber.pm:333> INFO - Reading 'HSB-theme.bcf'
-[90] Biber.pm:635> INFO - Found 8 citekeys in bib section 0
-[128] Biber.pm:3051> INFO - Processing section 0
-[153] Biber.pm:3189> INFO - Looking for bibtex format file 'bibo.bib' for section 0
-[158] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
-[162] bibtex.pm:864> INFO - Found BibTeX data source 'bibo.bib'
-[258] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[258] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[258] Biber.pm:2928> INFO - Sorting list 'anyt' of type 'entry' with scheme 'anyt' and locale 'de-DE'
-[259] Biber.pm:2932> INFO - No sort tailoring available for locale 'de-DE'
-[276] bbl.pm:517> INFO - Writing 'HSB-theme.bbl' with encoding 'UTF-8'
-[277] bbl.pm:606> INFO - Output to HSB-theme.bbl
+[27] biber-MSWIN:274> INFO - === %a %b %e, %Y, %H:%M:%S
+[27] Biber.pm:333> INFO - Reading 'HSB-theme.bcf'
+[80] Biber.pm:635> INFO - Found 13 citekeys in bib section 0
+[114] Biber.pm:3051> INFO - Processing section 0
+[138] Biber.pm:3189> INFO - Looking for bibtex format file 'bibo.bib' for section 0
+[143] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
+[146] bibtex.pm:864> INFO - Found BibTeX data source 'bibo.bib'
+[272] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[272] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[272] Biber.pm:2928> INFO - Sorting list 'anyt' of type 'entry' with scheme 'anyt' and locale 'de-DE'
+[272] Biber.pm:2932> INFO - No sort tailoring available for locale 'de-DE'
+[299] bbl.pm:517> INFO - Writing 'HSB-theme.bbl' with encoding 'UTF-8'
+[300] bbl.pm:606> INFO - Output to HSB-theme.bbl

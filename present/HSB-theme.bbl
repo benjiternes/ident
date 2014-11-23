@@ -19,6 +19,56 @@
 
 \refsection{0}
   \sortlist{anyt}{anyt}
+    \entry{fischer2009}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=32cdfbd566f24688af3f8ab88111c90f}{Fischer}{F\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=32cdfbd566f24688af3f8ab88111c90f}{Fischer}{F\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {München}%
+      }
+      \list{publisher}{1}{%
+        {Hanser}%
+      }
+      \strng{namehash}{32cdfbd566f24688af3f8ab88111c90f}
+      \strng{fullhash}{32cdfbd566f24688af3f8ab88111c90f}
+      \field{sortinit}{F}
+      \field{sortinithash}{9661cce5f16ac30b6b0c804d4583ed99}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Elektrische Maschinen}
+      \field{edition}{14}
+      \field{title}{Elektrische Maschinen}
+      \field{year}{2009}
+    \endentry
+    \entry{genduso}{article}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=23f5374f99d0ffd4f92a2dfce73f5b37}{Genduso}{G\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0500404c0892d70206b4760386ad26e6}{Miceli}{M\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=06e069e8ee9b39425a60cb5fff332454}{Rando}{R\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1660325db3febda6c5be6fc19c7e69bd}{Galluzzo}{G\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=23f5374f99d0ffd4f92a2dfce73f5b37}{Genduso}{G\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0500404c0892d70206b4760386ad26e6}{Miceli}{M\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=06e069e8ee9b39425a60cb5fff332454}{Rando}{R\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1660325db3febda6c5be6fc19c7e69bd}{Galluzzo}{G\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7e1807fec13c6806a7dd9d9b404717bd}
+      \strng{fullhash}{3fa26447518f7b1d2780bfe764609d03}
+      \field{sortinit}{G}
+      \field{sortinithash}{480ee01f9ffd559b3258d822f54a8ac2}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Back-EMF Sensorless Control Algorithm for High Dynamics Performances PMSM}
+      \field{journaltitle}{Industrial Electronics, IEEE Transactions}
+      \field{title}{Back-EMF Sensorless Control Algorithm for High Dynamics Performances PMSM}
+      \field{volume}{57}
+      \field{year}{2010}
+      \field{pages}{2092\bibrangedash 2100}
+    \endentry
     \entry{Kellner2012}{thesis}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=356fe0e0a2ff56772bbccf9222ecb942}{Kellner}{K\bibinitperiod}{S.\bibnamedelimi L.}{S\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
@@ -93,6 +143,27 @@
       \field{labeltitle}{Berechnung elektrischer Maschinen}
       \field{title}{Berechnung elektrischer Maschinen}
       \field{year}{2008}
+    \endentry
+    \entry{Perassi2006}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=b1ddaf0acabb2849e8416c6b8b106a0e}{Perassi}{P\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b1ddaf0acabb2849e8416c6b8b106a0e}{Perassi}{P\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {TU Ilmenau}%
+      }
+      \strng{namehash}{b1ddaf0acabb2849e8416c6b8b106a0e}
+      \strng{fullhash}{b1ddaf0acabb2849e8416c6b8b106a0e}
+      \field{sortinit}{P}
+      \field{sortinithash}{b8af9282ac256b81613dc9012a0ac921}
+      \field{labelyear}{2006}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Feldorientierte Regelung der permanenterregten Synchronmaschine ohne Lagegeber für den gesamten Drehzahlbereich bis zum Stillstand}
+      \field{title}{Feldorientierte Regelung der permanenterregten Synchronmaschine ohne Lagegeber für den gesamten Drehzahlbereich bis zum Stillstand}
+      \field{type}{Dissertation}
+      \field{year}{2006}
     \endentry
     \entry{schroder2001}{book}{}
       \name{labelname}{1}{}{%
@@ -203,6 +274,29 @@
       \field{year}{2012}
       \field{pages}{108\bibrangedash 112}
     \endentry
+    \entry{ternesfeldkamp}{thesis}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=098301a5c7a6886b8c936e3020183788}{Ternes}{T\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7f3e3af8dda6242c90dab61287974920}{Feldkamp}{F\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=098301a5c7a6886b8c936e3020183788}{Ternes}{T\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7f3e3af8dda6242c90dab61287974920}{Feldkamp}{F\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {HS Bochum}%
+      }
+      \strng{namehash}{7273e4dd43c4e4aa7ec9654a7505ecce}
+      \strng{fullhash}{7273e4dd43c4e4aa7ec9654a7505ecce}
+      \field{sortinit}{T}
+      \field{sortinithash}{9378dd666f3c24d81538df53aa99e23d}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Modellbasierte Implementierung einer Vektorregelung}
+      \field{title}{Modellbasierte Implementierung einer Vektorregelung}
+      \field{type}{Studienarbeit}
+      \field{year}{2014}
+    \endentry
     \entry{underwood_online_2010}{article}{}
       \name{labelname}{2}{}{%
         {{uniquename=0,hash=156ea0c45c92a512579243beb085f924}{Underwood}{U\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
@@ -230,6 +324,27 @@
       \field{volume}{57}
       \field{year}{2010}
       \field{pages}{2435\bibrangedash 2443}
+    \endentry
+    \entry{Bruhn2009}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=43c7fc2566731e2758085e6e69c199e1}{Wökl-Bruhn}{W\bibinithyphendelim B\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=43c7fc2566731e2758085e6e69c199e1}{Wökl-Bruhn}{W\bibinithyphendelim B\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {TU Carolo-Wilhelmina zu Braunschweig}%
+      }
+      \strng{namehash}{43c7fc2566731e2758085e6e69c199e1}
+      \strng{fullhash}{43c7fc2566731e2758085e6e69c199e1}
+      \field{sortinit}{W}
+      \field{sortinithash}{e560dae78a85a037c3da51c61467873a}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Synchronmaschine mit eingebetteten Magneten und neuartiger variabler Erregung für Hybridantriebe}
+      \field{title}{Synchronmaschine mit eingebetteten Magneten und neuartiger variabler Erregung für Hybridantriebe}
+      \field{type}{Dissertation}
+      \field{year}{2009}
     \endentry
   \endsortlist
 \endrefsection

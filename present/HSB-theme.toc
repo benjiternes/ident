@@ -14,8 +14,8 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {3}{Ans\IeC {\"a}tze zur Identifikation}{32}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {3}{1}{Bestimmung der Rotorlage}{34}{0}{3}
+\beamer@subsectionintoc {3}{1}{Bestimmung der Rotorlage}{33}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {3}{2}{Identifikation der Induktivit\IeC {\"a}ten und des St\IeC {\"a}nderwiderstandes}{37}{0}{3}
+\beamer@subsectionintoc {3}{2}{Identifikation der Induktivit\IeC {\"a}ten und des St\IeC {\"a}nderwiderstandes}{36}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{Parameterfehler}{49}{0}{4}
+\beamer@sectionintoc {4}{Parameterfehler}{50}{0}{4}

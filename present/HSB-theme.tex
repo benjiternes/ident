@@ -76,8 +76,12 @@ Fachbereich Elektrotechnik und Informatik}
 
 \begin{frame}[plain]{Autor}
 Benjamin Ternes
+
+GitHub: \url{http://github.com/benjiternes/ident.git}
+
 \begin{itemize}
 	\item VDE (Verband der Elektrotechnik Elektronik Informationstechnik e.\ V.\ ) Mitglied, Bezirk Düsseldorf	\url{http://www.vde.com/}
+	\item VDI (Verein Deutscher Ingenieure) \url{https://www.vdi.de/}
 	\item IEEE \url{https://www.ieee.org/index.html}
 	\item Dante e.\ V.\ Mitglied~--~Deutschsprachige Anwendervereinigung TeX e.\ V.\ \url{http://www.date.de/}
 \end{itemize}
@@ -181,6 +185,8 @@ L_\x{d}^{(i_\x{d},i_\x{q})} &= L_\x{dd}^{\xi}(i_\x{d}) + L_\x{dq}^{\xi}(i_\x{d},
 L_\x{q}^{(i_\x{d},i_\x{q})} &= L_\x{qq}^{\xi}(i_\x{q}) + L_\x{qd}^{\xi}(i_\x{d},i_\x{q})\cdot\frac{i_\x{d}}{i_\x{q}}
 \end{align}}
 
+\pause $\rightarrow$ Mehrwert wegen Trennung der Selbst- und Gegeninduktivität?
+
 \end{frame}
 
 \begin{frame}
@@ -193,15 +199,13 @@ L_\x{q}^{(i_\x{d},i_\x{q})} &= L_\x{qq}^{\xi}(i_\x{q}) + L_\x{qd}^{\xi}(i_\x{d},
 \end{align}
 Diese Darstellungsweise ist kürzer und übersichtlicher
 \end{block}}
-
-\pause $\rightarrow$ Mehrwert wegen Trennung der Selbst- und Gegeninduktivität? \autocite{Kellner2012}.
 \end{frame}
 
 \begin{frame}{Allgemeine Maschinengleichungen in Zustandsform}
 
 \begin{align}
 \left( \begin{array}{c} u_\x{d} \\ u_\x{q} \end{array} \right) &= \left( \begin{array}{cc} R_\x{1} & -\omega_\x{el}L_\x{q}^{(i_\x{d},i_\x{q})} \\ \omega_\x{el}L_\x{d}^{(i_\x{d},i_\x{q})} & R_\x{1} \end{array} \right) \left(\begin{array}{c} i_\x{d} \\ i_\x{q} \end{array}\right) \label{eqn:allg-spannungsgleichung} \\ 
- &\ldots + \underbrace{\left( \begin{array}{cc} L_\x{dd}^{(i_\x{d},i_\x{q})} & L_\x{dq}^{(i_\x{d},i_\x{q})} \\ L_\x{qd}^{(i_\x{d},i_\x{q})} & L_\x{qq}^{(i_\x{d},i_\x{q})} \end{array}\right)}_{\text{differentielle Induktivitäten}} \left(\begin{array}{c} \frac{\x{d}i_\x{d}}{\x{d}t} \\ \frac{\x{d}i_\x{q}}{\x{d}t} \end{array} \right) \nonumber \\ 
+ &\ldots + \underbrace{\left( \begin{array}{cc} L_\x{dd}^{(i_\x{d},i_\x{q})} & L_\x{dq}^{(i_\x{d},i_\x{q})} \\ L_\x{qd}^{(i_\x{d},i_\x{q})} & L_\x{qq}^{(i_\x{d},i_\x{q})} \end{array}\right)}_{\text{differentielle Induktivitäten}} \dot{\left(\begin{array}{c} i_\x{d} \\ i_\x{q} \end{array} \right)} \nonumber \\ 
 & \ldots + \left( \begin{array}{c} \frac{\x{\partial}}{\x{\partial }t} \Psi_\x{pm}^{(i_\x{q})} \\ \omega_\x{el} \Psi_\x{pm}^{(i_\x{q})} \nonumber \end{array}  \right) \nonumber
 \end{align}
 in Anlehnung an \autocite{Kellner2012}.
@@ -217,16 +221,6 @@ in Anlehnung an \autocite{Kellner2012}.
 \end{frame}
 
 \section{Ansätze zur Identifikation}
-\begin{frame}{Vorwissen}
-\begin{minipage}{0.4\textwidth}
-	\large{Warum?}
-\end{minipage}
-\hfill
-\begin{minipage}{0.4\textwidth}
-	\large{Notwendig?}
-\end{minipage}	
-\end{frame}
-
 \subsection{Bestimmung der Rotorlage}
 \begin{frame}{Bestimmung der Rotorlage}
 	\begin{itemize}
@@ -351,15 +345,45 @@ Viele Autoren verwenden MRAC-Algorithmen \enquote{(model-reference adaptive cont
 \end{quote}
 \end{frame}
 
-\begin{frame}{Konventioneller Ansatz~--~$u_\x{d}, u_\x{q}$-Spannungsgleichung}
+\begin{frame}{Konventioneller Ansatz~--~$u_\x{d}$-Spannungsgleichung}
 \begin{itemize}
-	\item Auswertung der $u_\x{d}$- und $u_\x{q}, u_\x{q}$-Spannungsgleichung
-	\item $\rightarrow$ so beschreibt die $u_\x{d}, u_\x{q}$-Spannungsgleichung das Modell für ideal bekannte Parameter
-	\item $u_\x{d}, u_\x{q}$ wird von der feldorientierten Regelung als Grundlage für den Spannungsraumzeiger ausgegeben
+	\item Auswertung der $u_\x{d}$-Spannungsgleichung
+	\item $\rightarrow$ so beschreibt die $u_\x{d}$-Spannungsgleichung das Modell für ideal bekannte Parameter
+	\item $u_\x{d}$ wird von der feldorientierten Regelung als Grundlage für den Spannungsraumzeiger ausgegeben
 \pause	\item $\rightarrow$ unpraktisch da, ein feldschwächender Strom vorhanden sein muss, um die Widerstandsdifferenz zu berechnen \autocite{Kellner2012}
 \pause 	\item $\rightarrow$ Energetische Gründe, prinzipiell möglich
 \end{itemize}
 \end{frame}
+
+\begin{frame}{Identifikation mit Testsignalen}
+	\begin{itemize}
+		\item Einprägung von niederfrequenten $i_\x{d}$-Strom-Testsignalen
+		\item Unterschied: Art der Einprägung und Auswertung der Sprungantwort
+	\end{itemize}
+	
+	\begin{quote}
+		\enquote{Das entwickelte Verfahren beruht auf der Annahme, dass die relevanten Störungen der Messsignale zum Teil Gleichtaktstörungen beziehungsweise Offsetfehler sind \autocite[S.~148]{Kellner2012}.}
+	\end{quote}
+	
+\end{frame}
+
+\begin{frame}{Ständertemperatur}
+	\begin{itemize}
+		\item Hängt immer mit der Identifikation des Ständerwiderstandes zusammen
+		\item Ständerwiderstand bekannt $\rightarrow$ Temperatur bekannt
+	\end{itemize}
+	
+		\begin{quote}
+			\enquote{Die Ansätze in der Literatur zeigen, dass der an sich oft selbst gestellte Anspruch an die Genauigkeit der Temperaturberechnung nur selten erreicht werden kann. \autocite[S.~175]{Kellner2012}.}
+		\end{quote}
+		
+\begin{align}
+R_\x{1} = R_\x{1,ref} \cdot (1 + \alpha_\x{Cu}(\vartheta_\x{1}-\vartheta_\x{ref}))
+\end{align}
+	
+\end{frame}
+
+
 
 \section{Parameterfehler}
 \begin{frame}
@@ -374,8 +398,16 @@ Viele Autoren verwenden MRAC-Algorithmen \enquote{(model-reference adaptive cont
 
 \section*{Bibliography}
 \begin{frame}[allowframebreaks]{Bibliography}
-%\nocite{*}
+\nocite{ternesfeldkamp}
+\nocite{Bruhn2009}
+\nocite{Perassi2006}
+\nocite{genduso}
+\nocite{fischer2009}
 \printbibliography
+\end{frame}
+
+\begin{frame}[plain]{Vielen Dank für Ihre Aufmerksamkeit}	
+	\huge{Fragen?}		
 \end{frame}
 
 %\section*{Anhang}
