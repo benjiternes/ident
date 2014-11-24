@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bcf:controlfile version="2.6" xmlns:bcf="https://sourceforge.net/projects/biblatex">
+<bcf:controlfile version="2.5" xmlns:bcf="https://sourceforge.net/projects/biblatex">
   <!-- BIBER OPTIONS -->
   <bcf:options component="biber" type="global">
     <bcf:option type="singlevalued">
@@ -114,10 +114,6 @@
     <bcf:option type="singlevalued">
       <bcf:key>sortalphaothers</bcf:key>
       <bcf:value>+</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>sortlocale</bcf:key>
-      <bcf:value>ngerman</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortscheme</bcf:key>
@@ -751,7 +747,11 @@
       <bcf:field fieldtype="field" datatype="literal">relatedtype</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">reprinttitle</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">series</bcf:field>
+      <bcf:field fieldtype="field" datatype="literal">shorthand</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">shorthandintro</bcf:field>
+      <bcf:field fieldtype="field" datatype="literal">shortjournal</bcf:field>
+      <bcf:field fieldtype="field" datatype="literal">shortseries</bcf:field>
+      <bcf:field fieldtype="field" datatype="literal">shorttitle</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">subtitle</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">title</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">titleaddon</bcf:field>
@@ -765,10 +765,6 @@
       <bcf:field fieldtype="field" datatype="literal">version</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">volume</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">volumes</bcf:field>
-      <bcf:field fieldtype="field" datatype="literal" label="true">shorthand</bcf:field>
-      <bcf:field fieldtype="field" datatype="literal" label="true">shortjournal</bcf:field>
-      <bcf:field fieldtype="field" datatype="literal" label="true">shortseries</bcf:field>
-      <bcf:field fieldtype="field" datatype="literal" label="true">shorttitle</bcf:field>
       <bcf:field fieldtype="field" datatype="datepart" nullok="true">urlendyear</bcf:field>
       <bcf:field fieldtype="field" datatype="datepart" nullok="true">endyear</bcf:field>
       <bcf:field fieldtype="field" datatype="datepart" nullok="true">eventendyear</bcf:field>
@@ -805,9 +801,9 @@
       <bcf:field fieldtype="list" datatype="name">namea</bcf:field>
       <bcf:field fieldtype="list" datatype="name">nameb</bcf:field>
       <bcf:field fieldtype="list" datatype="name">namec</bcf:field>
+      <bcf:field fieldtype="list" datatype="name">shortauthor</bcf:field>
+      <bcf:field fieldtype="list" datatype="name">shorteditor</bcf:field>
       <bcf:field fieldtype="list" datatype="name">translator</bcf:field>
-      <bcf:field fieldtype="list" datatype="name" label="true">shortauthor</bcf:field>
-      <bcf:field fieldtype="list" datatype="name" label="true">shorteditor</bcf:field>
       <bcf:field fieldtype="list" datatype="name" skip_output="true">sortname</bcf:field>
       <bcf:field fieldtype="field" datatype="key">authortype</bcf:field>
       <bcf:field fieldtype="field" datatype="key">editoratype</bcf:field>
@@ -836,13 +832,13 @@
       <bcf:field fieldtype="field" datatype="verbatim">verbb</bcf:field>
       <bcf:field fieldtype="field" datatype="verbatim">verbc</bcf:field>
       <bcf:field fieldtype="field" datatype="uri">url</bcf:field>
-      <bcf:field fieldtype="field" format="xsv" datatype="entrykey" skip_output="true">xdata</bcf:field>
-      <bcf:field fieldtype="field" format="xsv" datatype="entrykey" skip_output="true">ids</bcf:field>
-      <bcf:field fieldtype="field" format="xsv" datatype="entrykey" skip_output="true">entryset</bcf:field>
-      <bcf:field fieldtype="field" format="xsv" datatype="entrykey">related</bcf:field>
-      <bcf:field fieldtype="field" format="xsv" datatype="keyword">keywords</bcf:field>
-      <bcf:field fieldtype="field" format="xsv" datatype="option" skip_output="true">options</bcf:field>
-      <bcf:field fieldtype="field" format="xsv" datatype="option" skip_output="true">relatedoptions</bcf:field>
+      <bcf:field fieldtype="field" format="csv" datatype="entrykey" skip_output="true">xdata</bcf:field>
+      <bcf:field fieldtype="field" format="csv" datatype="entrykey" skip_output="true">ids</bcf:field>
+      <bcf:field fieldtype="field" format="csv" datatype="entrykey" skip_output="true">entryset</bcf:field>
+      <bcf:field fieldtype="field" format="csv" datatype="entrykey">related</bcf:field>
+      <bcf:field fieldtype="field" format="csv" datatype="keyword">keywords</bcf:field>
+      <bcf:field fieldtype="field" format="csv" datatype="option" skip_output="true">options</bcf:field>
+      <bcf:field fieldtype="field" format="csv" datatype="option" skip_output="true">relatedoptions</bcf:field>
       <bcf:field fieldtype="field" datatype="range">pages</bcf:field>
       <bcf:field fieldtype="field" datatype="code">execute</bcf:field>
     </bcf:fields>
@@ -1971,20 +1967,20 @@
     <bcf:datasource type="file" datatype="bibtex">bibo.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">ternes2012</bcf:citekey>
-    <bcf:citekey order="2">mullerII2008</bcf:citekey>
-    <bcf:citekey order="3">schroder2001</bcf:citekey>
-    <bcf:citekey order="4">mullerII2008</bcf:citekey>
-    <bcf:citekey order="5">schroder2001</bcf:citekey>
-    <bcf:citekey order="6">mullerII2008</bcf:citekey>
+    <bcf:citekey order="1">mullerII2008</bcf:citekey>
+    <bcf:citekey order="2">schroder2001</bcf:citekey>
+    <bcf:citekey order="3">mullerII2008</bcf:citekey>
+    <bcf:citekey order="4">schroder2001</bcf:citekey>
+    <bcf:citekey order="5">mullerII2008</bcf:citekey>
+    <bcf:citekey order="6">schroder2001</bcf:citekey>
     <bcf:citekey order="7">schroder2001</bcf:citekey>
-    <bcf:citekey order="8">schroder2001</bcf:citekey>
-    <bcf:citekey order="9">Kellner2012</bcf:citekey>
-    <bcf:citekey order="10">Kellner2012</bcf:citekey>
-    <bcf:citekey order="11">Kellner2012</bcf:citekey>
-    <bcf:citekey order="12">Kellner2012</bcf:citekey>
-    <bcf:citekey order="13">Kellner2012</bcf:citekey>
-    <bcf:citekey order="14">Kellner2012</bcf:citekey>
+    <bcf:citekey order="8">mullerII2008</bcf:citekey>
+    <bcf:citekey order="9">mullerII2008</bcf:citekey>
+    <bcf:citekey order="10">mullerII2008</bcf:citekey>
+    <bcf:citekey order="11">mullerII2008</bcf:citekey>
+    <bcf:citekey order="12">mullerII2008</bcf:citekey>
+    <bcf:citekey order="13">mullerII2008</bcf:citekey>
+    <bcf:citekey order="14">stumberger_evaluation_2003</bcf:citekey>
     <bcf:citekey order="15">stumberger_evaluation_2003</bcf:citekey>
     <bcf:citekey order="16">stumberger_evaluation_2003</bcf:citekey>
     <bcf:citekey order="17">stumberger_evaluation_2003</bcf:citekey>
@@ -1992,33 +1988,32 @@
     <bcf:citekey order="19">stumberger_evaluation_2003</bcf:citekey>
     <bcf:citekey order="20">stumberger_evaluation_2003</bcf:citekey>
     <bcf:citekey order="21">stumberger_evaluation_2003</bcf:citekey>
-    <bcf:citekey order="22">stumberger_evaluation_2003</bcf:citekey>
+    <bcf:citekey order="22">Kellner2012</bcf:citekey>
     <bcf:citekey order="23">Kellner2012</bcf:citekey>
     <bcf:citekey order="24">Kellner2012</bcf:citekey>
     <bcf:citekey order="25">Kellner2012</bcf:citekey>
     <bcf:citekey order="26">Kellner2012</bcf:citekey>
-    <bcf:citekey order="27">Kellner2012</bcf:citekey>
+    <bcf:citekey order="27">underwood_online_2010</bcf:citekey>
     <bcf:citekey order="28">underwood_online_2010</bcf:citekey>
-    <bcf:citekey order="29">underwood_online_2010</bcf:citekey>
-    <bcf:citekey order="30">Kellner2012</bcf:citekey>
+    <bcf:citekey order="29">Kellner2012</bcf:citekey>
+    <bcf:citekey order="30">kellner_general_2011</bcf:citekey>
     <bcf:citekey order="31">kellner_general_2011</bcf:citekey>
-    <bcf:citekey order="32">kellner_general_2011</bcf:citekey>
-    <bcf:citekey order="33">Kellner2012</bcf:citekey>
+    <bcf:citekey order="32">Kellner2012</bcf:citekey>
+    <bcf:citekey order="33">slotine_applied_1991</bcf:citekey>
     <bcf:citekey order="34">slotine_applied_1991</bcf:citekey>
-    <bcf:citekey order="35">slotine_applied_1991</bcf:citekey>
+    <bcf:citekey order="35">Kellner2012</bcf:citekey>
     <bcf:citekey order="36">Kellner2012</bcf:citekey>
     <bcf:citekey order="37">Kellner2012</bcf:citekey>
     <bcf:citekey order="38">Kellner2012</bcf:citekey>
     <bcf:citekey order="39">Kellner2012</bcf:citekey>
     <bcf:citekey order="40">Kellner2012</bcf:citekey>
-    <bcf:citekey order="41">Kellner2012</bcf:citekey>
-    <bcf:citekey order="42">ternesfeldkamp</bcf:citekey>
-    <bcf:citekey order="43">Bruhn2009</bcf:citekey>
-    <bcf:citekey order="44">Perassi2006</bcf:citekey>
-    <bcf:citekey order="45">genduso</bcf:citekey>
-    <bcf:citekey order="46">fischer2009</bcf:citekey>
+    <bcf:citekey order="41">ternesfeldkamp</bcf:citekey>
+    <bcf:citekey order="42">Bruhn2009</bcf:citekey>
+    <bcf:citekey order="43">Perassi2006</bcf:citekey>
+    <bcf:citekey order="44">genduso</bcf:citekey>
+    <bcf:citekey order="45">fischer2009</bcf:citekey>
   </bcf:section>
-  <bcf:sortlist section="0" name="anyt" type="entry" sortscheme="anyt">
+  <bcf:sortlist section="0" type="entry" label="anyt">
   <bcf:sorting>
     <bcf:sort order="1">
       <bcf:sortitem order="1">presort</bcf:sortitem>
