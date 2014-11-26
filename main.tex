@@ -593,7 +593,7 @@ Der prinzipielle Aufbau ist in Abb.~\ref{fig:synchron-grundlage} gezeigt.
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\columnwidth]{img/mrac}
-\caption{Prinzipielle Darstellung des MRAC-Algorithmus in Anlehnung an \textcite{slotine_applied_1991}.}
+\caption{Prinzipielle Darstellung eines MRAC-Algorithmus in Anlehnung an \textcite{slotine_applied_1991}.}
 \label{fig:mrac}
 \end{figure}
 
@@ -637,7 +637,8 @@ R_\x{1,ident} = \frac{u_\x{d}'' - u_\x{d}' + \omega_\x{el}'' L_\x{q}^{(i_\x{d}''
 \end{small}
 
 Wenn die Induktivitäten bekannt sind, kann der Ständerwiderstand berechnet werden.
-Unter Bezugnahme der Ständertemperatur ergibt sich dann für den identifizierten Ständerwiderstand nach \autocite{Kellner2012}:
+Die Berechnung der Ständertemperatur ist immer mit der Identifikation des Ständerwiderstandes verbunden, so lässt sich aus einem Identifizierten Ständerwiderstand die Temperatur bestimmen.
+Bei der Bestimmung der Temperatur muss ein Referenzwert genommen werden, z. B. $R_\x{1,ref} = R_\x{1,\vartheta = 20^{\circ}}$:
 
 \begin{align}
 R_\x{1} = R_\x{1,20^{\circ}\x{C}}\cdot \left[ 1 + \alpha_\x{Cu}(\vartheta_\x{1} - 20^{\circ}\x{C})\right]
@@ -645,6 +646,9 @@ R_\x{1} = R_\x{1,20^{\circ}\x{C}}\cdot \left[ 1 + \alpha_\x{Cu}(\vartheta_\x{1} 
 
 $R_\x{1,20^{\circ}\x{C}}$ beschreibt den gemessenen Ständerwiderstand bei einer Umgebungstemperatur von $20^{\circ}\x{C}$, $\vartheta_\x{1}$ die aktuelle Ständertemperatur und $\alpha_\x{Cu}$ den Temperaturkoeffizient von Kupfer.
 
+		\begin{quote}
+			\enquote{Die Ansätze in der Literatur zeigen, dass der an sich oft selbst gestellte Anspruch an die Genauigkeit der Temperaturberechnung nur selten erreicht werden kann. \autocite[S.~175]{Kellner2012}.}
+		\end{quote}
 
 \subsection{Identifikation der Flussverkettung}\label{sec:ident-fluss}
 
